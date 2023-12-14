@@ -4,6 +4,6 @@
 
 # Daisy Catalog
 
-*🌸 A catalog of UI examples for DaisyUI*
+*🌸 A catalog of UI examples for [DaisyUI](https://github.com/saadeghi/daisyui)*
 
 </div>
