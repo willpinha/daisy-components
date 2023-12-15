@@ -13,7 +13,12 @@
       // For paths like "./lib/examples/folder/filename"
       const [lib, templates, folder, filename] = path.slice(2).split("/");
 
-      const component = (await import(path)).default;
+      /**
+       * @type object
+       */
+      const module = await modules[path]();
+
+      const component = module.default;
 
       if (!$allComponents[folder]) {
         $allComponents[folder] = [component];
