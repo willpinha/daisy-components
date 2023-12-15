@@ -8,7 +8,7 @@
 
 </div>
 
-Have you ever used DaisyUI but had difficulty putting the components together to create an amazing interface? This catalog solves this problem! It contains
+Have you ever used DaisyUI but had difficulty putting the components together to create an amazing user interface? This catalog solves this problem! It contains
 examples of mobile-first and unique templates to inspire you. Cool, right?
 
 See all the examples in the [catalog](https://willpinha.github.io/daisy-catalog)!
