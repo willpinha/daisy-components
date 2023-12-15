@@ -9,6 +9,6 @@
 </div>
 
 Have you ever used DaisyUI but had difficulty putting the components together to create an amazing interface? This catalog solves this problem! It contains
-examples of pages, sections, layouts and composable components to inspire you. Cool, right?
+examples of mobile-first pages, sections, layouts and composable components to inspire you. Cool, right?
 
 See all the examples in the [catalogue](https://willpinha.github.io/daisy-catalog)!
