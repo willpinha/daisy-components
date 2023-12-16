@@ -10,6 +10,8 @@
     onMount(async () => {
         const path = `../examples/${params.tagName}/${params.componentName}.svelte`;
 
+        console.log(path);
+
         component = (await import(path)).default;
     });
 </script>
