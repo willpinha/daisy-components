@@ -1,5 +1,12 @@
 <script>
+    import { themeChange } from "theme-change";
+    import { onMount } from "svelte";
+
     import logo from "../../assets/logo.svg";
+
+    onMount(() => {
+        themeChange(false);
+    });
 
     const themes = [
         "light",
@@ -59,6 +66,7 @@
             <span class="hidden sm:flex">GitHub</span>
         </a>
 
+        <!-- Themes -->
         <details class="dropdown dropdown-bottom dropdown-end">
             <summary class="btn btn-ghost">
                 <i class="fa-solid fa-palette"></i>
