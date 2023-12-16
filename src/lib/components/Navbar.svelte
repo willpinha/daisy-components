@@ -38,6 +38,7 @@
 </script>
 
 <nav class="navbar bg-base-300 justify-between">
+    <!-- Left side -->
     <div class="flex gap-2">
         <img src={logo} class="w-12" alt="Daisy Catalog" />
 
@@ -47,7 +48,9 @@
         </div>
     </div>
 
+    <!-- Right side -->
     <div class="flex gap-0 sm:gap-2">
+        <!-- GitHub -->
         <a
             href="https://github.com/willpinha/daisy-catalog"
             class="btn btn-ghost"
@@ -56,15 +59,15 @@
             <span class="hidden sm:flex">GitHub</span>
         </a>
 
-        <div class="dropdown dropdown-bottom dropdown-end">
-            <button class="btn btn-ghost">
+        <details class="dropdown dropdown-bottom dropdown-end">
+            <summary class="btn">
                 <i class="fa-solid fa-palette"></i>
                 <span class="hidden sm:flex">Themes</span>
 
                 <i class="fa-solid fa-angle-down"></i>
-            </button>
+            </summary>
 
-            <ul
+            <div
                 class="flex flex-col dropdown-content gap-2 mt-2 z-[1] p-4 shadow-2xl bg-base-200 rounded-box w-64 h-72 overflow-y-scroll"
             >
                 {#each themes as theme}
@@ -82,7 +85,7 @@
                         </div>
                     </button>
                 {/each}
-            </ul>
-        </div>
+            </div>
+        </details>
     </div>
 </nav>
