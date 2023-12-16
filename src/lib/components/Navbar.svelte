@@ -38,6 +38,9 @@
         "sunset",
     ];
 
+    /**
+     * @param {string} newTheme
+     */
     function updateTheme(newTheme) {
         $theme = newTheme;
     }

@@ -1,4 +1,5 @@
 import { readable } from "svelte/store";
+import * as devalue from "devalue"
 
 function buildMetadata() {
     const metadata = {};
@@ -28,4 +29,6 @@ export const metadata = buildMetadata();
 import { persisted } from 'svelte-persisted-store'
 
 // Set default theme to dark
-export const theme = persisted("theme", "dark");
+export const theme = persisted("theme", "dark", {
+    serializer: devalue
+});

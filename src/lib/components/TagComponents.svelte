@@ -1,5 +1,4 @@
 <script>
-    import { onMount } from "svelte";
     import { metadata } from "../utils/stores";
 
     import ContentPanel from "../components/ContentPanel.svelte";

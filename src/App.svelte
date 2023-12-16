@@ -10,7 +10,6 @@
 
 	/**
 	 * Sync the "data-theme" document attribute and the "theme" local storage key
-	 *
 	 * @param {Document} document
 	 * @param {string} theme
 	 */
