@@ -30,14 +30,14 @@
             <!-- Menu items -->
 
             <li>
-                <a href="/">
+                <a href="/daisy-catalog">
                     <i class="fa-solid fa-user"></i>
                     Profile
                 </a>
             </li>
 
             <li>
-                <a href="/">
+                <a href="/daisy-catalog">
                     <i class="fa-solid fa-right-from-bracket"></i>
                     Logout
                 </a>
