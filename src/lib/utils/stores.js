@@ -1,10 +1,26 @@
-import { writable } from "svelte/store";
+import { readable } from "svelte/store";
+
+function buildMetadata() {
+    const metadata = {};
+
+    const modules = import.meta.glob("../examples/*/*.svelte");
+
+    for (const path in modules) {
+        // For paths like "../examples/folder/filename.svelte"
+        const [examples, folder, filename] = path.slice(3).replace(".svelte", "").split("/");
+
+        if (!metadata[folder]) {
+            metadata[folder] = [filename];
+        } else {
+            metadata[folder].push(filename);
+        }
+    }
+
+    return readable(metadata);
+}
 
 /**
- * Each key is a directory at /lib/examples/ and each value is an array of imported Svelte
- * components of that directory 
+ * Each key (tag) is a directory at /lib/examples/ and each value is an array of Svelte
+ * component names of that directory
  */
-export const allComponents = writable({});
-
-// A tag is nothing but a directory name at /lib/examples/
-export const selectedTag = writable("");
+export const metadata = buildMetadata(); 

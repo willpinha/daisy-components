@@ -26,7 +26,7 @@
         </label>
 
         <div class="flex flex-wrap justify-center gap-2">
-            {#each ["navbar", "blog", "sidebar", "avatar", "landingPage", "opa", "olha", "eita", "opaopaopa", "eitaeitaeita", "olhaolhaolha"] as tag}
+            {#each ["navbar", "blog", "sidebar", "xuxu", "avatar", "landingPage", "opa", "olha", "eita", "opaopaopa", "eitaeitaeita", "olhaolhaolha"] as tag}
                 <a
                     href="#/{tag}"
                     class="btn btn-sm btn-outline btn-primary"
