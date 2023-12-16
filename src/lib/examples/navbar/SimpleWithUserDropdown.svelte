@@ -1,15 +1,11 @@
 <div class="navbar justify-between items-center bg-base-300">
     <!-- Logo -->
-    <img alt="DaisyCatalog" src="/daisy-catalog/logo.svg" class="w-12" />
+    <img alt="DaisyCatalog" src="/logo.svg" class="w-12" />
 
     <div class="dropdown dropdown-bottom dropdown-end">
         <!-- Dropdown action -->
         <button class="btn btn-link p-0">
-            <img
-                alt="User"
-                src="/daisy-catalog/user.png"
-                class="w-10 hover:brightness-90"
-            />
+            <img alt="User" src="/user.png" class="w-10 hover:brightness-90" />
         </button>
 
         <!-- Dropdown content -->
@@ -30,14 +26,14 @@
             <!-- Menu items -->
 
             <li>
-                <a href="/daisy-catalog">
+                <a href="/">
                     <i class="fa-solid fa-user"></i>
                     Profile
                 </a>
             </li>
 
             <li>
-                <a href="/daisy-catalog">
+                <a href="/">
                     <i class="fa-solid fa-right-from-bracket"></i>
                     Logout
                 </a>
