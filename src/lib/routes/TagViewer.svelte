@@ -15,7 +15,9 @@
             <a href="#/" class="btn btn-ghost">
                 <i class="fa-solid fa-arrow-left-long text-2xl"></i>
             </a>
-            <span>{params.tagName}</span>
+            <span class="line-clamp-1 break-all">
+                {params.tagName}
+            </span>
         </h1>
     </div>
 </ContentPanel>

@@ -8,8 +8,10 @@
 
 <ContentPanel>
     <div class="flex flex-col items-center gap-6 p-6">
-        <h1 class="text-4xl font-bold text-center border-b border-neutral pb-2">
-            🌸 Click on a tag to show
+        <h1
+            class="flex items-center gap-2 text-4xl font-bold text-center border-b border-neutral pb-2"
+        >
+            <span class="text-3xl">🌸</span> Click on a tag to show
             <i class="text-secondary">UI examples</i>
         </h1>
 
