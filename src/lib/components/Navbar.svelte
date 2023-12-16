@@ -47,19 +47,19 @@
         </div>
     </div>
 
-    <div class="flex gap-2">
+    <div class="flex gap-0 sm:gap-2">
         <a
             href="https://github.com/willpinha/daisy-catalog"
             class="btn btn-ghost"
         >
             <i class="fa-brands fa-github text-lg"></i>
-            GitHub
+            <span class="hidden sm:flex">GitHub</span>
         </a>
 
         <div class="dropdown dropdown-bottom dropdown-end">
             <button class="btn btn-ghost">
                 <i class="fa-solid fa-palette"></i>
-                Themes
+                <span class="hidden sm:flex">Themes</span>
 
                 <i class="fa-solid fa-angle-down"></i>
             </button>
