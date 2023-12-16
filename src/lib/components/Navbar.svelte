@@ -70,13 +70,13 @@
                     <button
                         data-set-theme={theme}
                         data-theme={theme}
-                        class="btn bg-base-100 flex justify-between"
+                        class="btn btn-sm bg-base-100 flex justify-between"
                     >
                         <span>{theme}</span>
 
                         <div class="flex items-center gap-2">
                             {#each ["bg-primary", "bg-secondary", "bg-accent", "bg-neutral"] as bg}
-                                <span class="{bg} h-6 w-2 rounded-box"></span>
+                                <span class="{bg} h-4 w-2 rounded-box"></span>
                             {/each}
                         </div>
                     </button>
