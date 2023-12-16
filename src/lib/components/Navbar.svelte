@@ -1,12 +1,7 @@
 <script>
-    import { themeChange } from "theme-change";
-    import { onMount } from "svelte";
+    import { theme } from "../utils/stores";
 
     import logo from "../../assets/logo.svg";
-
-    onMount(() => {
-        themeChange(false);
-    });
 
     const themes = [
         "light",
@@ -42,6 +37,10 @@
         "nord",
         "sunset",
     ];
+
+    function updateTheme(newTheme) {
+        $theme = newTheme;
+    }
 </script>
 
 <nav class="navbar bg-base-300 justify-between">
@@ -78,13 +77,13 @@
             <div
                 class="flex flex-col dropdown-content gap-2 mt-2 z-[1] p-4 shadow-2xl bg-base-200 rounded-box w-64 h-72 overflow-y-scroll"
             >
-                {#each themes as theme}
+                {#each themes as t}
                     <button
-                        data-set-theme={theme}
-                        data-theme={theme}
+                        data-theme={t}
                         class="btn btn-sm bg-base-100 flex justify-between"
+                        on:click={() => updateTheme(t)}
                     >
-                        <span>{theme}</span>
+                        <span>{t}</span>
 
                         <div class="flex items-center gap-2">
                             {#each ["bg-primary", "bg-secondary", "bg-accent", "bg-neutral"] as bg}

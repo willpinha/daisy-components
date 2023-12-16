@@ -23,4 +23,9 @@ function buildMetadata() {
  * Each key (tag) is a directory at /lib/examples/ and each value is an array of Svelte
  * component names of that directory
  */
-export const metadata = buildMetadata(); 
+export const metadata = buildMetadata();
+
+import { persisted } from 'svelte-persisted-store'
+
+// Set default theme to dark
+export const theme = persisted("theme", "dark");

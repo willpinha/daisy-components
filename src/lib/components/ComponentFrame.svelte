@@ -1,43 +1,53 @@
 <script>
-    import { onMount } from "svelte";
+    import { theme } from "../utils/stores";
 
     export let frameSrc = "";
 
-    let currentTheme;
+    let iframeLoaded = false;
 
-    let iframe;
-
-    let temp;
-
-    function test(node) {
-        node.setAttribute("data-theme", "cupcake");
-    }
-
-    onMount(() => {
-        const observer = new MutationObserver((mutations) => {
-            for (const mutation of mutations) {
-                if (mutation.type === "attributes") {
-                    currentTheme =
-                        document.documentElement.getAttribute("data-theme");
-                }
-            }
-        });
-
-        observer.observe(document.documentElement, { attributes: true });
-
-        return () => observer.disconnect();
-    });
-
-    $: {
-        if (iframe) {
+    /**
+     * Sync the "data-theme" iframe document attribute and the "theme" local storage key
+     *
+     * @param {HTMLIFrameElement} iframe
+     * @param {string} theme
+     */
+    function syncTheme(iframe, theme) {
+        const updateTheme = (/** @type {string} */ newTheme) => {
             iframe.contentWindow.document.documentElement.setAttribute(
                 "data-theme",
-                currentTheme,
+                newTheme,
             );
-        }
+        };
+
+        updateTheme(theme);
+
+        return {
+            /**
+             * @param {string} theme
+             */
+            update(theme) {
+                updateTheme(theme);
+            },
+        };
     }
 </script>
 
-<input class="input input-bordered" bind:value={temp} />
+<div class="border border-neutral rounded-box p-6">
+    <iframe
+        use:syncTheme={$theme}
+        on:load={() => {
+            iframeLoaded = true;
+        }}
+        src={frameSrc}
+        title={frameSrc}
+        class:hidden={!iframeLoaded}
+    >
+    </iframe>
 
-<iframe bind:this={iframe} src={frameSrc} title={frameSrc}> </iframe>
+    {#if !iframeLoaded}
+        <div class="flex flex-col items-center justify-center gap-1">
+            <i class="fa-solid fa-hourglass-half animate-bounce text-2xl"></i>
+            <span class="text-sm">Loading component...</span>
+        </div>
+    {/if}
+</div>

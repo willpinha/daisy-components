@@ -23,9 +23,11 @@
         </h1>
 
         {#each componentNames as componentName}
-            <span>{componentName}</span>
+            <div class="flex flex-col gap-2">
+                <h2 class="text-lg">{componentName}</h2>
 
-            <ComponentFrame frameSrc="#/{tagName}/{componentName}" />
+                <ComponentFrame frameSrc="#/{tagName}/{componentName}" />
+            </div>
         {/each}
     </div>
 </ContentPanel>
