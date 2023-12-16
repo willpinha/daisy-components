@@ -60,7 +60,7 @@
         </a>
 
         <details class="dropdown dropdown-bottom dropdown-end">
-            <summary class="btn">
+            <summary class="btn btn-ghost">
                 <i class="fa-solid fa-palette"></i>
                 <span class="hidden sm:flex">Themes</span>
 
