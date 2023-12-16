@@ -58,6 +58,7 @@
 
         <div class="dropdown dropdown-bottom dropdown-end">
             <button class="btn btn-ghost">
+                <i class="fa-solid fa-palette"></i>
                 Themes
 
                 <i class="fa-solid fa-angle-down"></i>
