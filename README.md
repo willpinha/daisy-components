@@ -4,11 +4,11 @@
 
 # Daisy Catalog
 
-*🌸 A catalog of templates for [DaisyUI](https://github.com/saadeghi/daisyui)*
+*🌸 A catalog of UI examples for [DaisyUI](https://github.com/saadeghi/daisyui)*
 
 </div>
 
 Have you ever used DaisyUI but had difficulty putting the components together to create an amazing user interface? This catalog solves this problem! It contains
-examples of mobile-first and unique templates to inspire you. Cool, right?
+examples of mobile-first and unique UI examples to inspire you. Cool, right?
 
 See all the examples in the [catalog](https://willpinha.github.io/daisy-catalog)!
