@@ -1,37 +1,20 @@
 <script>
-  import { onMount } from "svelte";
-  import { allComponents, selectedTag } from "./lib/utils/stores";
+  import Router from "svelte-spa-router";
 
-  import Tags from "./lib/components/Tags.svelte";
-  import Examples from "./lib/components/Examples.svelte";
-  import Navbar from "./lib/components/Navbar.svelte";
+  import Home from "./lib/routes/Home.svelte";
+  import TagViewer from "./lib/routes/TagViewer.svelte";
+  import ComponentViewer from "./lib/routes/ComponentViewer.svelte";
+  import NotFound from "./lib/routes/NotFound.svelte";
 
-  onMount(async () => {
-    const modules = import.meta.glob("./lib/examples/*/*.svelte");
+  const routes = {
+    "/": Home,
 
-    for (const path in modules) {
-      // For paths like "./lib/examples/folder/filename"
-      const [lib, templates, folder, filename] = path.slice(2).split("/");
+    "/:tagName": TagViewer,
 
-      /**
-       * @type object
-       */
-      const module = await modules[path]();
+    "/:tagName/:componentName": ComponentViewer,
 
-      const component = module.default;
-
-      if (!$allComponents[folder]) {
-        $allComponents[folder] = [component];
-      } else {
-        $allComponents[folder].push(component);
-      }
-    }
-  });
+    "*": NotFound,
+  };
 </script>
 
-<Navbar />
-
-<div class="flex flex-col gap-8 items-center p-6">
-  <Tags />
-  <Examples />
-</div>
+<Router {routes} />

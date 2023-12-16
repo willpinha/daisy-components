@@ -20,6 +20,8 @@
     "vite": "^5.0.8"
   },
   "dependencies": {
-    "@fortawesome/fontawesome-free": "^6.5.1"
+    "@fortawesome/fontawesome-free": "^6.5.1",
+    "svelte-spa-router": "^4.0.0",
+    "theme-change": "^2.5.0"
   }
 }
