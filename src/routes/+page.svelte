@@ -5,20 +5,21 @@
 
 	export let data;
 
-	let { tags } = data;
+	let { tags, numExamples } = data;
 </script>
 
-<div class="flex flex-col items-center gap-6 p-6">
-	<h1
-		class="flex items-center justify-center gap-2 text-4xl font-bold border-b border-neutral pb-2"
-	>
+<div class="flex flex-col items-center gap-4 p-6">
+	<h1 class="text-center gap-2 text-4xl font-bold border-b border-neutral pb-2">
 		<span class="text-3xl">🌸</span>
-
-		<span>
-			Click on a <span class="text-primary">#tag</span> to show
-			<i class="text-secondary">UI examples</i>
-		</span>
+		Click on a <span class="text-primary">#tag</span> to show
+		<i class="text-secondary">UI examples</i>
 	</h1>
+
+	<div>
+		You can find
+		<span class="badge badge-accent badge-outline badge-sm">{numExamples}</span> UI examples in
+		<span class="badge badge-accent badge-outline badge-sm">{tags.length}</span> tags!
+	</div>
 
 	<label class="flex relative items-center">
 		<i class="absolute pl-5 fa-solid fa-filter text-primary"></i>
