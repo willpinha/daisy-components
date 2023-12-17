@@ -5,26 +5,7 @@
 
 	export let data;
 
-	const { tag, componentNames } = data;
-	/**
-	 * @type {import('svelte').ComponentType[]}
-	 */
-	let components = [];
-
-	onMount(async () => {
-		const importPath = `../../lib/examples/${tag}`;
-
-		for (const name of componentNames) {
-			const module = await import(/* @vite-ignore */ `${importPath}/${name}`);
-
-			/**
-			 * @type {import('svelte').ComponentType}
-			 */
-			const componentClass = module.default;
-
-			components = [...components, componentClass];
-		}
-	});
+	const { tag, components } = data;
 </script>
 
 <div class="flex items-center gap-2 border-b border-b-neutral">
