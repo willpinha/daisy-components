@@ -1,18 +1,38 @@
-<div align="center">
+# create-svelte
 
-<img alt="Daisy Catalog" width="120" src="https://github.com/willpinha/daisy-catalog/assets/86596621/ee38de70-3564-4c55-af1f-e5f0d7c9092e" />
+Everything you need to build a Svelte project, powered by [`create-svelte`](https://github.com/sveltejs/kit/tree/master/packages/create-svelte).
 
-# Daisy Catalog
+## Creating a project
 
-*🌸 A catalog of UI examples for [DaisyUI](https://github.com/saadeghi/daisyui)*
+If you're seeing this, you've probably already done this step. Congrats!
 
-</div>
+```bash
+# create a new project in the current directory
+npm create svelte@latest
 
-Have you ever used DaisyUI but had difficulty putting the components together to create an amazing user interface? This catalog solves this problem! It contains
-examples of mobile-first and unique UI examples to inspire you. Cool, right?
+# create a new project in my-app
+npm create svelte@latest my-app
+```
 
-See all the examples in the [catalog](https://daisy-catalog.willpinha.link)!
+## Developing
 
-## Features
+Once you've created a project and installed dependencies with `npm install` (or `pnpm install` or `yarn`), start a development server:
 
-- Select any default DaisyUI theme
+```bash
+npm run dev
+
+# or start the server and open the app in a new browser tab
+npm run dev -- --open
+```
+
+## Building
+
+To create a production version of your app:
+
+```bash
+npm run build
+```
+
+You can preview the production build with `npm run preview`.
+
+> To deploy your app, you may need to install an [adapter](https://kit.svelte.dev/docs/adapters) for your target environment.
