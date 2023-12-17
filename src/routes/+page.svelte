@@ -9,9 +9,9 @@
 </script>
 
 <div class="flex flex-col items-center gap-4 p-6">
-	<h1 class="text-center gap-2 text-4xl font-bold border-b border-neutral pb-2">
+	<h1 class="flex items-center gap-2 text-4xl font-bold text-center border-b border-neutral pb-2">
 		<span class="text-3xl">🌸</span>
-		Click on a <span class="text-primary">#tag</span> to show
+		<span>Click on a <span class="text-primary">#tag</span> to show</span>
 		<i class="text-secondary">UI examples</i>
 	</h1>
 
