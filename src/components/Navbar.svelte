@@ -11,14 +11,14 @@
 
 <nav class="navbar bg-base-300 justify-between">
 	<!-- Left side -->
-	<div class="flex gap-2">
-		<img src={logo} class="w-12" alt="Daisy Catalog" />
+	<a href="/" class="btn btn-ghost flex gap-2 px-2">
+		<img src={logo} class="w-6" alt="Daisy Catalog" />
 
 		<div class="flex font-bold text-2xl">
 			Daisy
 			<span class="text-primary">Catalog</span>
 		</div>
-	</div>
+	</a>
 
 	<!-- Right side -->
 	<div class="flex gap-0 sm:gap-2">
