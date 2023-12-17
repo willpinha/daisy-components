@@ -1,7 +1,7 @@
 export const load = async ({ data }) => {
     const { tag, componentNames } = data;
 
-    const importPath = `../../lib/examples/${tag}`;
+    const importPath = `$lib/examples/${tag}`;
     const components = [];
 
     for (const name of componentNames) {
