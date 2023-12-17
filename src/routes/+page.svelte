@@ -2,12 +2,22 @@
 	import { isMatch } from '$lib/utils/filter';
 
 	let filter = '';
+
+	export let data;
+
+	let { tags } = data;
 </script>
 
 <div class="flex flex-col items-center gap-6 p-6">
-	<h1 class="text-4xl font-bold text-center border-b border-neutral pb-2">
-		🌸 Click on a tag to show
-		<i class="text-secondary">UI examples</i>
+	<h1
+		class="flex items-center justify-center gap-2 text-4xl font-bold border-b border-neutral pb-2"
+	>
+		<span class="text-3xl">🌸</span>
+
+		<span>
+			Click on a <span class="text-primary">#tag</span> to show
+			<i class="text-secondary">UI examples</i>
+		</span>
 	</h1>
 
 	<label class="flex relative items-center">
@@ -17,13 +27,13 @@
 	</label>
 
 	<div class="flex flex-wrap max-w-md justify-center gap-2">
-		{#each ['navbar', 'blog', 'sidebar', 'avatar', 'landingPage', 'opa', 'olha', 'eita'] as tag}
+		{#each tags as tag}
 			<a
 				href="/{tag}"
 				class="btn btn-sm btn-outline btn-primary"
 				class:btn-disabled={!isMatch(tag, filter)}
 			>
-				{tag}
+				#{tag}
 			</a>
 		{/each}
 	</div>

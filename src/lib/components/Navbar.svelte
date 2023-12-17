@@ -23,7 +23,7 @@
 	<!-- Right side -->
 	<div class="flex gap-0 sm:gap-2">
 		<!-- GitHub -->
-		<a href="https://github.com/willpinha/daisy-catalog" class="btn btn-ghost">
+		<a target="_blank" href="https://github.com/willpinha/daisy-catalog" class="btn btn-ghost">
 			<i class="fa-brands fa-github text-lg"></i>
 			<span class="hidden sm:flex">GitHub</span>
 		</a>
