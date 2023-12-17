@@ -11,7 +11,7 @@
 
 <nav class="navbar bg-base-300 justify-between">
 	<!-- Left side -->
-	<a href="/" class="btn btn-ghost flex gap-2 px-2">
+	<a href="/" class="btn btn-ghost flex gap-2">
 		<img src={logo} class="w-6" alt="Daisy Catalog" />
 
 		<div class="flex font-bold text-2xl">
