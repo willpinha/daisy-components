@@ -16,8 +16,8 @@
 
 <Navbar />
 
-<div class="flex justify-center">
-	<div class="max-w-4xl">
+<div class="flex justify-center p-6">
+	<div class="w-full lg:w-4/5 max-w-6xl">
 		<slot />
 	</div>
 </div>

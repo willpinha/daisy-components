@@ -8,7 +8,7 @@
 	let { tags, numExamples } = data;
 </script>
 
-<div class="flex flex-col items-center gap-4 p-6">
+<div class="flex flex-col items-center gap-4">
 	<h1 class="text-center gap-2 text-4xl font-bold border-b border-neutral pb-2">
 		Click on a <span class="text-primary">#tag</span> to show
 		<i class="text-secondary">UI examples</i>
