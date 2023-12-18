@@ -5,9 +5,7 @@ export const load = async ({ params }) => {
 
     const components = [];
 
-    for (const example of examples) {
-        // const module = await import(`${importPath}/${name}`);
-
+    for (const example of examples[tag]) {
         const module = await example;
 
         /**
