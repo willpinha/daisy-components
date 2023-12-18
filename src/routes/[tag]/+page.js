@@ -1,11 +1,14 @@
-export const load = async ({ data }) => {
-    const { tag, componentNames } = data;
+import examples from '$lib/examples/index.js';
 
-    const importPath = `../../lib/examples/${tag}`;
+export const load = async ({ params }) => {
+    const { tag } = params;
+
     const components = [];
 
-    for (const name of componentNames) {
-        const module = await import(/* @vite-ignore */ `${importPath}/${name}`);
+    for (const example of examples) {
+        // const module = await import(`${importPath}/${name}`);
+
+        const module = await example;
 
         /**
          * @type {import('svelte').ComponentType}
