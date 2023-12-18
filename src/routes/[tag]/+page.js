@@ -1,19 +1,35 @@
-import examples from '$lib/examples/index.js';
-
 export const load = async ({ params }) => {
     const { tag } = params;
 
+    /**
+     * Ensures build will bundle all Svelte components inside examples folder
+     */
+    const allModules = import.meta.glob("../../lib/examples/*/*.svelte");
+
+    /**
+     * Filtered modules for tag 
+     * 
+     * @type {typeof allModules}
+     */
+    const tagModules = {};
+
+    for (const path in allModules) {
+        if (path.includes(`examples/${tag}`)) {
+            tagModules[path] = allModules[path];
+        }
+    }
+
     const components = [];
 
-    for (const example of examples[tag]) {
-        const module = await example;
-
+    for (const path in tagModules) {
         /**
-         * @type {import('svelte').ComponentType}
+         * @type {any}
          */
-        const componentClass = module.default;
+        const module = await tagModules[path]();
 
-        components.push(componentClass);
+        const component = module.default;
+
+        components.push(component);
     }
 
     return { tag, components };
