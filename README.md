@@ -1,14 +1,13 @@
 <div align="center">
 
-<img alt="Daisy Catalog" width="120" src="https://github.com/willpinha/daisy-catalog/assets/86596621/ee38de70-3564-4c55-af1f-e5f0d7c9092e" />
+# Shoelace Collection
 
-# Daisy Catalog
-
-*🌸 A catalog of UI examples for [DaisyUI](https://github.com/saadeghi/daisyui)*
+*A collection of UI examples for [Shoelace](https://github.com/shoelace-style/shoelace)*
 
 </div>
 
-Have you ever used DaisyUI but had difficulty putting the components together to create an amazing user interface? This catalog solves this problem! It contains
-examples of mobile-first and unique UI examples to inspire you. Cool, right?
+This is a collection of user interface examples using Shoelace and TailwindCSS. Hopefully, this will inspire you when building your own designs. Examples are
+separated by tags, like `#navbar`, `#blog` and `#landingPage`. Feel free to [contribute](CONTRIBUTING.md), as this collection is an open path for creative minds
 
-See all the examples in the [catalog](https://daisy-catalog.willpinha.link)!
+
+See the [collection](https://shoelace-collection.willpinha.link) for examples
