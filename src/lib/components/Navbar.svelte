@@ -17,7 +17,7 @@
 
 		<div class="flex font-bold text-xl sm:text-2xl">
 			Daisy
-			<span class="text-primary">Catalog</span>
+			<span class="text-primary">Collection</span>
 		</div>
 	</a>
 
