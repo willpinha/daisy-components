@@ -9,19 +9,21 @@
 </script>
 
 <div class="flex flex-col gap-8">
-	<div class="flex items-center gap-2 border-b border-b-neutral">
-		<a href="/" class="btn btn-ghost px-2">
-			<i class="fa-solid fa-arrow-left-long text-3xl"></i>
+	<div class="flex items-center gap-2">
+		<a href="/" class="btn btn-ghost px-3">
+			<i class="fa-solid fa-arrow-left-long text-2xl"></i>
 		</a>
 
-		<h1 class="text-4xl font-bold">#{tag}</h1>
+		<h1 class="text-3xl font-bold text-primary">#{tag}</h1>
 	</div>
 
 	{#await asyncExamples}
 		Loading examples...
 	{:then examples}
-		{#each examples as example}
-			<Preview {example} />
-		{/each}
+		<ul class="timeline timeline-snap-icon timeline-compact timeline-vertical">
+			{#each examples as example}
+				<Preview {example} />
+			{/each}
+		</ul>
 	{/await}
 </div>
