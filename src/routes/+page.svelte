@@ -15,7 +15,7 @@
 	</h1>
 
 	<div>
-		You can find
+		🌸 You can find
 		<span class="badge badge-accent badge-outline badge-sm">{numExamples}</span> UI examples in
 		<span class="badge badge-accent badge-outline badge-sm">{tags.length}</span> tags!
 	</div>

@@ -2,7 +2,9 @@
 	import Highlight from "svelte-highlight";
 	import type { TagExample } from "$lib/tags";
 	import language from "svelte-highlight/languages/xml";
-	import theme from "svelte-highlight/styles/base16-ir-black";
+	import themeDark from "svelte-highlight/styles/atom-one-dark";
+	import themeLight from "svelte-highlight/styles/atom-one-light";
+	import { isDarker } from "$lib/utils/theme";
 
 	export let example: TagExample;
 
@@ -10,7 +12,11 @@
 </script>
 
 <svelte:head>
-	{@html theme}
+	{#if $isDarker}
+		{@html themeDark}
+	{:else}
+		{@html themeLight}
+	{/if}
 </svelte:head>
 
 <li>
@@ -31,7 +37,7 @@
 				aria-label="Preview"
 				checked
 			/>
-			<div role="tabpanel" class="tab-content bg-base-100 border-base-300 rounded-box p-6">
+			<div role="tabpanel" class="tab-content bg-base-100 border-base-300 rounded-box p-3">
 				{@html example.html}
 			</div>
 
@@ -40,12 +46,10 @@
 				type="radio"
 				name="{example.name}"
 				role="tab"
-				class="tab [--tab-bg:oklch(var(--n))]"
+				class="tab [--tab-bg:oklch(var(--b3))]"
 				aria-label="Code"
-				class:[--tab-color:oklch(var(--nc))]={codeTabSelected}
-				class:[--tab-color:oklch(var(--bc))]={!codeTabSelected}
 			/>
-			<div role="tabpanel" class="tab-content bg-base-100 border-base-300 rounded-box text-sm overflow-x-scroll">
+			<div role="tabpanel" class="tab-content bg-base-100 text-sm overflow-x-scroll">
 				<Highlight {language} code={example.html}/>
 			</div>
 		</div>
@@ -56,6 +60,6 @@
 
 <style lang="postcss">
 	:global(code) {
-		@apply rounded-lg !bg-neutral;
+		@apply rounded-lg !bg-base-300;
 	}
 </style>

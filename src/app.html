@@ -5,11 +5,16 @@
 	<meta charset="utf-8" />
 	<link rel="icon" href="%sveltekit.assets%/logo.svg" />
 	<meta name="viewport" content="width=device-width, initial-scale=1" />
-	<script>
-		// Prevents the theme from blinking on page load
-		const theme = localStorage.theme ?? "";
 
-		document.documentElement.setAttribute("data-theme", theme);
+	<script type="module">
+		// Prevents the theme from blinking on page load
+		function defineTheme() {
+			const theme = localStorage.theme ?? "dark";
+
+			document.documentElement.setAttribute("data-theme", theme);
+		}
+
+		defineTheme();
 	</script>
 	%sveltekit.head%
 </head>

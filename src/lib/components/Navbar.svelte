@@ -3,6 +3,7 @@
 	import logo from '$lib/assets/logo.svg';
 	import { onMount } from 'svelte';
 	import { themeChange } from 'theme-change';
+	import { isDarker, darkThemes } from '$lib/utils/theme';
 
 	onMount(() => {
 		themeChange(false);
@@ -44,6 +45,7 @@
 					<button
 						data-theme={theme}
 						data-set-theme={theme}
+						on:click={() => $isDarker = darkThemes.includes(theme)}
 						class="btn btn-sm bg-base-100 flex justify-between"
 					>
 						<span>{theme}</span>
