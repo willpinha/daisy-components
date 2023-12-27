@@ -1,59 +1,11 @@
-<script>
-	import { onMount } from 'svelte';
-
-	import Component from '$lib/components/Component.svelte';
+<script lang="ts">
+	import Preview from '$lib/components/Preview.svelte';
+	import { getTagExamples, type TagExample } from '$lib/tags.js';
 
 	export let data;
 
 	const { tag } = data;
-
-	/**
-	 * @type {import('svelte').ComponentType[]}
-	 */
-	let components = [];
-
-	let loadingComponents = true;
-
-	onMount(async () => {
-		/**
-		 * Ensures build will bundle all Svelte components inside examples folder
-		 */
-		const allModules = import.meta.glob('../../lib/examples/*/*.svelte');
-
-		/**
-		 * Filtered modules for tag
-		 *
-		 * @type {typeof allModules}
-		 */
-		const tagModules = {};
-
-		for (const path in allModules) {
-			if (path.includes(`examples/${tag}`)) {
-				tagModules[path] = allModules[path];
-			}
-		}
-
-		/**
-		 * To load all components at once. An alternative would be to push directly to the
-		 * "components" reactive variable, in which each component is loaded individually
-		 */
-		const tempComponents = [];
-
-		for (const path in tagModules) {
-			/**
-			 * @type {any}
-			 */
-			const module = await tagModules[path]();
-
-			const component = module.default;
-
-			tempComponents.push(component);
-		}
-
-		components = tempComponents;
-
-		loadingComponents = false;
-	});
+	let asyncExamples: Promise<TagExample[]> = getTagExamples(tag);
 </script>
 
 <div class="flex flex-col gap-8">
@@ -65,11 +17,11 @@
 		<h1 class="text-4xl font-bold">#{tag}</h1>
 	</div>
 
-	{#if loadingComponents}
-		<i>Loading examples...</i>
-	{/if}
-
-	{#each components as component}
-		<Component {component} />
-	{/each}
+	{#await asyncExamples}
+		Loading examples...
+	{:then examples}
+		{#each examples as example}
+			<Preview {example} />
+		{/each}
+	{/await}
 </div>
