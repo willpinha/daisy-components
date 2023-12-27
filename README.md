@@ -2,13 +2,34 @@
 
 <img alt="Daisy Collection" width="120" src="https://github.com/willpinha/daisy-catalog/assets/86596621/ee38de70-3564-4c55-af1f-e5f0d7c9092e" />
 
-# Daisy Catalog
+# [Daisy Collection](https://daisy-collection.willpinha.link)
 
 *🌸 A collection of UI examples for [DaisyUI](https://github.com/saadeghi/daisyui)*
 
 </div>
 
-Have you ever used DaisyUI but had difficulty putting the components together to create an amazing user interface? This collection solves this problem! It contains
-examples of mobile-first and unique UI examples to inspire you. Cool, right?
+## Why this collection?
 
-See all the examples in the [catalog](https://daisy-collection.willpinha.link)!
+I used DaisyUI in some projects and the amount of functionality it offers without any JavaScript code is incredible, not to mention the different themes and
+colors available
+
+I didn't find more complex usage examples for DaisyUI anywhere, so I decided to create this collection. I hope it inspires you in your projects
+
+## Installation
+
+You don't need to install anything! Just copy/paste any [UI example](https://daisy-collection.willpinha.link) into your project
+
+> [!IMPORTANT]  
+> All examples are made with DaisyUI and TailwindCSS, so make sure you have these dependencies in your project. We also use [Font Awesome](https://fontawesome.com)
+> for the icons, but you can replace it with any other icon library
+
+## Contributing
+
+This collection is made by the community and you can contribute!
+
+> [!TIP] 
+> If you want to contribute, take a look at the [CONTRIBUTING](CONTRIBUTING.md) guide
+
+## License
+
+This repository is under the [MIT license](LICENSE)!
