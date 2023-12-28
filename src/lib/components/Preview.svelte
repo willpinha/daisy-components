@@ -49,7 +49,7 @@
 				aria-label="Preview"
 				checked
 			/>
-			<div role="tabpanel" class="tab-content bg-base-100 border-base-300 rounded-box p-3">
+			<div role="tabpanel" class="tab-content border-base-300 rounded-box p-3">
 				{@html example.html}
 			</div>
 
@@ -61,7 +61,7 @@
 				class="tab [--tab-bg:oklch(var(--b3))]"
 				aria-label="Code"
 			/>
-			<div role="tabpanel" class="tab-content bg-base-100 text-sm overflow-x-scroll relative">
+			<div role="tabpanel" class="tab-content text-sm overflow-x-scroll relative">
 				<div class="absolute right-2 top-2">
 					<div class="tooltip tooltip-left" data-tip="{copied ? 'Copied!' : 'Copy'}">
 						<button class="btn btn-ghost btn-sm" on:click={copyHTML} on:mouseleave={verifyCopied}>
