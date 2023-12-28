@@ -6,6 +6,7 @@
 	import themeLight from "svelte-highlight/styles/atom-one-light";
 	import { isDarker } from "$lib/utils/theme";
 
+	export let tag: string;
 	export let example: TagExample;
 
 	let codeTabSelected: boolean = false;
@@ -37,7 +38,14 @@
 	</div>
 
 	<div class="timeline-start w-full flex flex-col gap-4">
-		<span class="font-mono italic">{example.name}</span>
+		<a
+			href="https://github.com/willpinha/daisy-collection/blob/master/src/lib/examples/{tag}/{example.name}.html"
+			class="link link-accent font-mono italic self-start"
+			target="_blank"
+			title="Edit source code"
+		>
+			{example.name}
+		</a>
 
 		<div role="tablist" class="tabs tabs-lifted pb-4">
 			<input
@@ -75,7 +83,7 @@
 		</div>
 	</div>
 
-	<hr/>
+	<hr class="bg-base-200"/>
 </li>
 
 <style lang="postcss">
