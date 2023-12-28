@@ -8,7 +8,7 @@
 	let { tags, numExamples } = data;
 </script>
 
-<div class="flex flex-col items-center gap-4">
+<div class="flex flex-col items-center gap-6">
 	<h1 class="text-center gap-2 text-4xl font-bold">
 		Click on a <span class="text-primary">#tag</span> to show
 		<i class="text-secondary">UI examples</i>
@@ -26,7 +26,7 @@
 		<input placeholder="Filter tags..." class="input input-bordered pl-12" bind:value={filter} />
 	</label>
 
-	<div class="flex flex-wrap max-w-md justify-center gap-2">
+	<div class="flex flex-wrap justify-center gap-2">
 		{#each tags as tag}
 			<a
 				href="/{tag}"
