@@ -3,7 +3,6 @@ contact_links:
   - name: Help & Support
     url: https://github.com/willpinha/shoelace-collection/discussions/categories/help
     about: Please don't create issues for personal help requests. Instead, ask your question on the discussion forum
-  - name: Requests for tags and UI examples
-    url: https:github.com/willpinha/shoelace-collection/discussions/categories/ideas
+  - name: Requests for tags and UI exampless 
+    url: https://github.com/willpinha/shoelace-collection/discussions/categories/ideas
     about: All requests for new tags and UI examples should go here
-  
