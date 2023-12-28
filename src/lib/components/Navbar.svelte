@@ -15,7 +15,7 @@
 	<a href="/" class="btn btn-ghost flex gap-2">
 		<img src={logo} class="w-4 sm:w-6" alt="Daisy Catalog" />
 
-		<div class="flex font-bold text-xl sm:text-2xl">
+		<div class="flex font-bold text-lg sm:text-2xl">
 			Daisy
 			<span class="text-primary">Collection</span>
 		</div>
@@ -35,7 +35,9 @@
 				<i class="fa-solid fa-palette"></i>
 				<span class="hidden sm:flex">Themes</span>
 
-				<i class="fa-solid fa-angle-down"></i>
+				<span class="hidden sm:flex">
+					<i class="fa-solid fa-angle-down"></i>
+				</span>
 			</summary>
 
 			<div
