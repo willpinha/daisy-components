@@ -41,7 +41,7 @@
 			</summary>
 
 			<div
-				class="flex flex-col dropdown-content gap-2 mt-2 z-[1] p-4 shadow-2xl bg-base-200 rounded-box w-64 h-72 overflow-y-scroll"
+				class="flex flex-col dropdown-content gap-2 mt-2 z-10 p-4 shadow-2xl bg-base-200 rounded-box w-64 h-72 overflow-y-scroll"
 			>
 				{#each themes as theme}
 					<button
