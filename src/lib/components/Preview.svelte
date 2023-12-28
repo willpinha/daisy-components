@@ -9,6 +9,18 @@
 	export let example: TagExample;
 
 	let codeTabSelected: boolean = false;
+	let copied: boolean = false;
+
+	function copyHTML() {
+		navigator.clipboard.writeText(example.html);	
+		copied = true;
+	}
+
+	function verifyCopied() {
+		if (copied) {
+			copied = false;
+		}
+	}
 </script>
 
 <svelte:head>
@@ -49,7 +61,15 @@
 				class="tab [--tab-bg:oklch(var(--b3))]"
 				aria-label="Code"
 			/>
-			<div role="tabpanel" class="tab-content bg-base-100 text-sm overflow-x-scroll">
+			<div role="tabpanel" class="tab-content bg-base-100 text-sm overflow-x-scroll relative">
+				<div class="absolute right-2 top-2">
+					<div class="tooltip tooltip-left" data-tip="{copied ? 'Copied!' : 'Copy'}">
+						<button class="btn btn-ghost btn-sm" on:click={copyHTML} on:mouseleave={verifyCopied}>
+							<i class="{copied ? 'fa-solid text-primary' : 'fa-regular'} fa-copy text-lg"></i>
+						</button>
+					</div>
+				</div>
+
 				<Highlight {language} code={example.html}/>
 			</div>
 		</div>
