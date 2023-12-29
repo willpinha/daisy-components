@@ -1,7 +1,7 @@
-name: New UI example
-description: Something here 
-title: "[NEW UI EXAMPLE] <title>"
-labels: ["enhancement"]
+name: 🐞 Bug
+description: File a bug/issue
+title: "[BUG] <title>"
+labels: ["Bug", "Needs Triage"]
 body:
 - type: checkboxes
   attributes:
