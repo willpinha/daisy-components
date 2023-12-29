@@ -28,7 +28,7 @@ body:
 - type: dropdown
   attributes:
     label: "Do you want to implement the UI example?"
-    description: "If you want to, please take a look at the [CONTRIBUTING.md]() file"
+    description: "If you want to, please take a look at the [CONTRIBUTING.md](https://github.com/willpinha/daisy-collection/blob/master/CONTRIBUTING.md) file"
     options:
       - Yes, I do want to implement it!
       - No, I'm just giving the idea
