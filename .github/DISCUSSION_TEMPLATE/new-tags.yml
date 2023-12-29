@@ -1,0 +1,9 @@
+labels: ["enhancement"]
+body:
+- type: input
+  attributes:
+    label: Tag name
+    description: "It must be in lower camel case, singular, and cannot already exist"
+    placeholder: "Example: landingPage"
+  validations:
+    required: true
