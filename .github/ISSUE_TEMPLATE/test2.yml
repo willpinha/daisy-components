@@ -1,4 +1,4 @@
-name: New UI example
+name: "New UI example"
 description: File a bug/issue
 title: "[BUG] <title>"
 labels: ["Bug", "Needs Triage"]
