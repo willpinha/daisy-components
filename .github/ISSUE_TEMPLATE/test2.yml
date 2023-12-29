@@ -1,7 +1,6 @@
-name: 🐞 Bug
-description: File a bug/issue
-title: "[BUG] <title>"
-labels: ["Bug", "Needs Triage"]
+name: New UI example 
+description: "[NEW UI EXAMPLE] <title>"
+labels: ["enhancement"]
 body:
 - type: checkboxes
   attributes:
