@@ -10,7 +10,7 @@ body:
     placeholder: Tell us what you see!
   validations:
     required: true
-- type: markdown
+- type: textarea
   attributes:
     label: What are the steps to reproduce this issue?
     description: Give a list of steps to reproduce the issue
