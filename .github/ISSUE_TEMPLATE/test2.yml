@@ -1,0 +1,12 @@
+name: New UI example 
+description: Propose a new UI example for an existing tag
+title: "[NEW UI EXAMPLE] <title>"
+labels: ["enhancement"]
+body:
+- type: input
+  attributes:
+    label: "For which tag?"
+    description: "The tag name must already exist"
+    placeholder: "Example: navbar"
+  validations:
+    required: true
