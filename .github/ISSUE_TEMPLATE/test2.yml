@@ -1,5 +1,6 @@
-name: New UI example 
-description: "[NEW UI EXAMPLE] <title>"
+name: New UI example
+description: Something here 
+title: "[NEW UI EXAMPLE] <title>"
 labels: ["enhancement"]
 body:
 - type: checkboxes
