@@ -7,14 +7,14 @@ body:
   attributes:
     label: Which tag?
     description: The tag name must already exist
-    placeholder: Example: navbar
+    placeholder: "Example: navbar"
   validations:
     required: true
 - type: input
   attributes:
     label: Which UI example?
     description: The UI example must already exist
-    placeholder: Example: simpleWithDropdown 
+    placeholder: "Example: simpleWithDropdown"
   validations:
     required: true
 - type: textarea
