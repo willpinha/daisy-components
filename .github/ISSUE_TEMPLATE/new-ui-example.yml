@@ -1,6 +1,5 @@
 name: "New UI example"
-about: ""
-title: ""
+description: ""
 body:
 - type: input
   attributes:
