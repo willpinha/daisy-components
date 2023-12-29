@@ -1,4 +1,5 @@
 name: 🏷️ New tag
+description: Propose a new tag
 labels: ["enhancement"]
 body:
 - type: input
