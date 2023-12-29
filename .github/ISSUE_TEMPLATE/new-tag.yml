@@ -1,6 +1,7 @@
 name: 🏷️ New tag
 description: Propose a new tag
 labels: ["enhancement"]
+assignees: "willpinha"
 body:
 - type: input
   attributes:

@@ -1,6 +1,7 @@
 name: 🎨 New UI example 
 description: Propose a new UI example for an existing tag
 labels: ["enhancement"]
+assignees: "willpinha"
 body:
 - type: input
   attributes:
