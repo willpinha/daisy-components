@@ -1,7 +1,7 @@
 import { readdir } from 'fs/promises'
 
 export const load = async ({ params }) => {
-    const rootPath = "./src/lib/examples/";
+    const rootPath = "./examples/";
 
     const tags = (await readdir(rootPath, { withFileTypes: true }))
         .filter(dir => dir.isDirectory())

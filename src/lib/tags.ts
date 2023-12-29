@@ -1,4 +1,4 @@
-const modules = import.meta.glob("./examples/**/*.html", { as: "raw" });
+const modules = import.meta.glob("../../examples/**/*.html", { as: "raw" });
 
 export type TagExample = {
     name: string,
@@ -6,7 +6,7 @@ export type TagExample = {
 }
 
 export async function getTagExamples(tag: string): Promise<TagExample[]> {
-    const tagPaths = Object.keys(modules).filter((path) => path.includes(`./examples/${tag}`));
+    const tagPaths = Object.keys(modules).filter((path) => path.includes(`examples/${tag}`));
 
     const tagExamples: TagExample[] = [];
 
