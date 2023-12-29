@@ -11,11 +11,10 @@ body:
   attributes:
     label: "Use cases"
     description: "Give a description of use cases for this tag"
-    placeholder: "Example: This tag can be associated with any section of a landing page, such as hero section, FAQ section and pricing section"
+    placeholder: "Example: This tag can be associated with any section of a landing page, such as hero sections, FAQ sections, clients sections and pricing sections"
   validations:
     required: true
 - type: textarea
   attributes:
     label: "Screenshots"
     description: "Add screenshots demonstrating UI examples for the tag"
-    
