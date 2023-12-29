@@ -15,6 +15,13 @@ colors available
 
 I didn't find more complex usage examples for DaisyUI anywhere, so I decided to create this collection. I hope it inspires you in your projects
 
+## Features
+
+- Get access to all UI examples for free!
+- Supports all 32 DaisyUI themes
+- Only uses TailwindCSS, DaisyUI and FontAwesome
+- Constantly growing collection
+
 ## Installation
 
 You don't need to install anything! Just copy/paste any [UI example](https://daisy-collection.willpinha.link) into your project
