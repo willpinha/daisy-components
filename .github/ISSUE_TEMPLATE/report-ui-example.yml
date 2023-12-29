@@ -1,4 +1,4 @@
-name: Report for UI example 
+name: Report for an UI example 
 description: Create a report for issues with an existing UI example
 labels: ["bug"]
 assignees: "willpinha"
