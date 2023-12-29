@@ -1,6 +1,5 @@
-name: New UI example 
+name: 🎨 New UI example 
 description: Propose a new UI example for an existing tag
-title: "[NEW UI EXAMPLE] <title>"
 labels: ["enhancement"]
 body:
 - type: input
