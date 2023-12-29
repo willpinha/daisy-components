@@ -1,8 +1,11 @@
 blank_issues_enabled: false
 contact_links:
-  - name: Help and support
+  - name: 🙏 Help and support
     url: https://github.com/willpinha/shoelace-collection/discussions/categories/help-and-support
     about: Ask the community for help
-  - name: New tags and UI examples 
-    url: https://github.com/willpinha/shoelace-collection/discussions/categories/new-tags-and-ui-examples
-    about: Share ideas for new tags and UI examples
+  - name: 🏷️ New tags
+    url: https://github.com/willpinha/shoelace-collection/discussions/categories/new-tags
+    about: Share ideas for new tags
+  - name: 🎨 New UI examples
+    url: https://github.com/willpinha/shoelace-collection/discussions/categories/new-ui-examples
+    about: Share ideas for new UI examples
