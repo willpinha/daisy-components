@@ -1,12 +1,12 @@
-name: New UI example 
-description: Propose a new UI example for an existing tag
-title: "[NEW UI EXAMPLE] <title>"
-labels: ["enhancement"]
+name: 🐞 Bug
+description: File a bug/issue
+title: "[BUG] <title>"
+labels: ["Bug", "Needs Triage"]
 body:
-- type: input
+- type: checkboxes
   attributes:
-    label: "For which tag?"
-    description: "The tag name must already exist"
-    placeholder: "Example: navbar"
-  validations:
-    required: true
+    label: Is there an existing issue for this?
+    description: Please search to see if an issue already exists for the bug you encountered.
+    options:
+    - label: I have searched the existing issues
+      required: true
