@@ -16,8 +16,8 @@
 
 <Navbar />
 
-<div class="flex justify-center px-3 py-6">
-	<div class="w-full lg:w-4/5 max-w-6xl">
+<div class="flex justify-center px-4 py-6">
+	<div class="w-full max-w-screen-2xl">
 		<slot />
 	</div>
 </div>
