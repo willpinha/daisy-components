@@ -1,10 +1,13 @@
-<nav class="navbar lg:grid grid-cols-5 gap-2 bg-base-300">
-    <div class="col-span-2 hidden menu lg:menu-horizontal gap-2 justify-end">
+<!-- Navbar -->
+<nav class="navbar justify-between md:grid grid-cols-5 gap-2 bg-base-300">
+    <!-- Left side menu -->
+    <div class="col-span-2 hidden menu md:menu-horizontal gap-2 justify-end">
         <li><a>About</a></li>
         <li><a>Team</a></li>
         <li><a>News</a></li>
     </div>
 
+    <!-- Logo -->
     <div class="flex justify-center">
         <a class="btn btn-ghost text-lg text-secondary">
             <i class="fa-solid fa-gamepad text-primary"></i>
@@ -12,11 +15,47 @@
         </a>
     </div>
 
-    <div class="col-span-2 hidden menu lg:menu-horizontal gap-2 justify-start">
+    <!-- Right side menu -->
+    <div class="col-span-2 hidden menu md:menu-horizontal gap-2 justify-start">
         <li><a>Community</a></li>
         <a class="btn btn-sm btn-primary btn-outline">
             <i class="fa-brands fa-space-awesome"></i>
             Access
         </a>
     </div>
+
+    <!-- Drawer button -->
+    <div class="drawer-content md:hidden">
+        <label for="centered-logo-drawer" class="btn btn-ghost btn-circle drawer-button">
+            <i class="fa-solid fa-bars text-lg"></i>
+        </label>
+    </div>
 </nav>
+
+<!-- Drawer -->
+<div class="drawer z-[1]">
+    <input id="centered-logo-drawer" type="checkbox" class="drawer-toggle" />
+
+    <div class="drawer-side">
+        <label for="centered-logo-drawer" aria-label="close sidebar" class="drawer-overlay"></label>
+        
+        <div class="menu gap-3 p-4 w-60 min-h-full bg-base-200">
+            <li>
+                <a class="text-xl font-bold">
+                    <i class="fa-solid fa-gamepad text-primary"></i>
+                    <span class="text-secondary">Game Name</span>
+                </a>
+            </li>
+
+            <li><a>About</a></li>
+            <li><a>Team</a></li>
+            <li><a>News</a></li>
+            <li><a>Community</a></li>
+
+            <a class="btn btn-sm btn-primary btn-outline">
+                <i class="fa-brands fa-space-awesome"></i>
+                Access
+            </a>
+        </div>
+    </div>
+</div>
