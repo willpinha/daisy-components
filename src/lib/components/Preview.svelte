@@ -44,7 +44,7 @@
 
 	<div class="timeline-start w-full flex flex-col gap-4">
 		<a
-			href="https://github.com/willpinha/daisy-collection/blob/master/src/lib/examples/{tag}/{example.name}.html"
+			href="https://github.com/willpinha/daisy-collection/blob/master/examples/{tag}/{example.name}.html"
 			class="link link-accent font-mono italic self-start"
 			target="_blank"
 			title="Edit source code"
