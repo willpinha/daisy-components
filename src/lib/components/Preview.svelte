@@ -22,6 +22,11 @@
 			copied = false;
 		}
 	}
+
+	// Lower camel case to lower case with spaces
+	function convertExampleName(name: string): string {
+		return name.replace(/([a-z])([A-Z])/g, '$1 $2').toLowerCase();
+	}
 </script>
 
 <svelte:head>
@@ -44,7 +49,7 @@
 			target="_blank"
 			title="Edit source code"
 		>
-			{example.name}
+			{convertExampleName(example.name)}
 		</a>
 
 		<div role="tablist" class="tabs tabs-lifted pb-4">
