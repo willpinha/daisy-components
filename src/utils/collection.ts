@@ -33,4 +33,20 @@ async function buildCollection(): Promise<Collection> {
     return collection;
 }
 
-export default await buildCollection();
+export function getNumberOfExamples(): number {
+    let numExamples = 0;
+
+    for (const tag in collection) {
+        const examples = Object.keys(collection[tag]);
+
+        numExamples += examples.length;
+    }
+
+    return numExamples; 
+}
+
+export function getTags(): string[] {
+    return Object.keys(collection);
+}
+
+export const collection = await buildCollection();

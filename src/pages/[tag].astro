@@ -1,8 +1,29 @@
 ---
 import type { GetStaticPaths } from "astro";
+import { collection } from "../utils/collection";
+
+import Page from "../layout/Page.astro";
+import Content from "../layout/Content.astro";
+import Navbar from "../components/Navbar.svelte";
+import Filter from "../components/Filter.svelte";
 
 export const getStaticPaths = (() => {
-    
-    return [];
+    const paths = [];
+
+    for (const tag in collection) {
+        paths.push({ params: { tag } })
+    }
+
+    return paths;
 }) satisfies GetStaticPaths;
+
+const { tag } = Astro.params;
 ---
+
+<Page title={tag}>
+    <Navbar />
+
+    <Content>
+        {tag}
+    </Content>
+</Page>

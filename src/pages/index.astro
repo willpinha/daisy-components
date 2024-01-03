@@ -1,8 +1,14 @@
 ---
 import Page from "../layout/Page.astro";
 import Navbar from "../components/Navbar.svelte";
+import Content from "../layout/Content.astro";
+import Filter from "../components/Filter.svelte";
 ---
 
 <Page title="Tags">
     <Navbar />
+
+    <Content>
+        <Filter client:load />
+    </Content>
 </Page>
