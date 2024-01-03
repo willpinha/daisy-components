@@ -85,6 +85,11 @@
 
 				<Highlight {language} code={example.html}/>
 			</div>
+
+			<a href="/playground/{tag}/{example.name}" target="_blank" class="flex gap-1 tab">
+				<i class="fa-solid fa-arrow-up-right-from-square"></i>
+				Playground
+			</a>
 		</div>
 	</div>
 

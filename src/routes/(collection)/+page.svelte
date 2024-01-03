@@ -8,6 +8,10 @@
 	let { tags, numExamples } = data;
 </script>
 
+<svelte:head>
+	<title>Daisy Collection</title>
+</svelte:head>
+
 <div class="flex flex-col items-center gap-6">
 	<h1 class="text-center gap-2 text-4xl font-bold">
 		Click on a <span class="text-primary">#tag</span> to show

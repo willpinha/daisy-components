@@ -8,6 +8,10 @@
 	let asyncExamples: Promise<TagExample[]> = getTagExamples(tag);
 </script>
 
+<svelte:head>
+	<title>Daisy Collection | {tag}</title>
+</svelte:head>
+
 <div class="flex flex-col gap-8">
 	<div class="flex items-center gap-2">
 		<a href="/" class="btn btn-ghost px-3">

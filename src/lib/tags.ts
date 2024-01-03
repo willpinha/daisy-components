@@ -22,3 +22,11 @@ export async function getTagExamples(tag: string): Promise<TagExample[]> {
     
     return tagExamples;    
 }
+
+export async function getTagExample(tag: string, example: string): Promise<TagExample> {
+    const examplePath = `../../examples/${tag}/${example}.html`;
+
+    const html = await modules[examplePath]();
+
+    return { name: example, html };
+}
