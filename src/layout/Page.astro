@@ -1,0 +1,40 @@
+---
+	import "@fortawesome/fontawesome-free/css/all.min.css";
+	
+	const { title } = Astro.props;
+---
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Collection | {title}</title>
+	<script is:inline>
+		/**
+		 * Prevents the FART problem (https://css-tricks.com/flash-of-inaccurate-color-theme-fart/)
+		 */
+		function preventFart() {
+			const theme = localStorage.getItem("theme");	
+
+			const element = document.documentElement;
+
+			if (theme === null) {
+				element.setAttribute("data-theme", "dark");
+			} else {
+				element.setAttribute("data-theme", theme);
+			}
+		}
+
+		preventFart();
+	</script>
+
+	<script>
+		import { themeChange } from "theme-change";
+
+		themeChange();
+	</script>
+</head>
+<body>
+	<slot />	
+</body>
+</html>

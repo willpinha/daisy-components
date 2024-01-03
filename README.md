@@ -1,42 +1,47 @@
-<div align="center">
+# Astro Starter Kit: Minimal
 
-<img alt="Daisy Collection" width="120" src="https://github.com/willpinha/daisy-catalog/assets/86596621/ee38de70-3564-4c55-af1f-e5f0d7c9092e" />
+```sh
+npm create astro@latest -- --template minimal
+```
 
-# [Daisy Collection](https://daisy-collection.willpinha.link)
+[![Open in StackBlitz](https://developer.stackblitz.com/img/open_in_stackblitz.svg)](https://stackblitz.com/github/withastro/astro/tree/latest/examples/minimal)
+[![Open with CodeSandbox](https://assets.codesandbox.io/github/button-edit-lime.svg)](https://codesandbox.io/p/sandbox/github/withastro/astro/tree/latest/examples/minimal)
+[![Open in GitHub Codespaces](https://github.com/codespaces/badge.svg)](https://codespaces.new/withastro/astro?devcontainer_path=.devcontainer/minimal/devcontainer.json)
 
-*🌸 A collection of UI examples for [DaisyUI](https://github.com/saadeghi/daisyui)*
+> 🧑‍🚀 **Seasoned astronaut?** Delete this file. Have fun!
 
-</div>
+## 🚀 Project Structure
 
-## Why this collection?
+Inside of your Astro project, you'll see the following folders and files:
 
-I used DaisyUI in some projects and the amount of functionality it offers without any JavaScript code is incredible, not to mention the different themes and
-colors available
+```text
+/
+├── public/
+├── src/
+│   └── pages/
+│       └── index.astro
+└── package.json
+```
 
-I didn't find more complex usage examples for DaisyUI anywhere, so I decided to create this collection. I hope it inspires you in your projects
+Astro looks for `.astro` or `.md` files in the `src/pages/` directory. Each page is exposed as a route based on its file name.
 
-## Features
+There's nothing special about `src/components/`, but that's where we like to put any Astro/React/Vue/Svelte/Preact components.
 
-- Get access to all UI examples for free!
-- Supports all 32 DaisyUI themes
-- Only uses TailwindCSS, DaisyUI and FontAwesome
-- Constantly growing collection
+Any static assets, like images, can be placed in the `public/` directory.
 
-## Installation
+## 🧞 Commands
 
-You don't need to install anything! Just copy/paste any [UI example](https://daisy-collection.willpinha.link) into your project
+All commands are run from the root of the project, from a terminal:
 
-> [!IMPORTANT]  
-> All examples are made with DaisyUI and TailwindCSS, so make sure you have these dependencies in your project. We also use [Font Awesome](https://fontawesome.com)
-> for the icons, but you can replace it with any other icon library
+| Command                   | Action                                           |
+| :------------------------ | :----------------------------------------------- |
+| `npm install`             | Installs dependencies                            |
+| `npm run dev`             | Starts local dev server at `localhost:4321`      |
+| `npm run build`           | Build your production site to `./dist/`          |
+| `npm run preview`         | Preview your build locally, before deploying     |
+| `npm run astro ...`       | Run CLI commands like `astro add`, `astro check` |
+| `npm run astro -- --help` | Get help using the Astro CLI                     |
 
-## Contributing
+## 👀 Want to learn more?
 
-This collection is made by the community and you can contribute!
-
-> [!TIP] 
-> If you want to contribute, take a look at the [CONTRIBUTING](CONTRIBUTING.md) guide
-
-## License
-
-This repository is under the [MIT license](LICENSE)!
+Feel free to check [our documentation](https://docs.astro.build) or jump into our [Discord server](https://astro.build/chat).
