@@ -1,0 +1,28 @@
+---
+import type { GetStaticPaths } from "astro";
+import { collection } from "../../../utils/collection";
+
+import Page from "../../../layout/Page.astro";
+import Playground from "../../../components/Playground.svelte";
+
+export const getStaticPaths = (() => {
+    const paths: any[] = [];
+
+    for (const tag in collection) {
+
+        for (const example in collection[tag]) {
+            paths.push({ params: { tag, example } })
+        }
+    }
+
+    return paths;
+}) satisfies GetStaticPaths;
+
+const { tag, example } = Astro.params;
+
+const html = collection[tag][example]; 
+---
+
+<Page title="Playground">
+    <Playground {html} />
+</Page>

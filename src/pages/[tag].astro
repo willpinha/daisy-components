@@ -5,7 +5,7 @@ import { collection } from "../utils/collection";
 import Page from "../layout/Page.astro";
 import Content from "../layout/Content.astro";
 import Navbar from "../components/Navbar.svelte";
-import Filter from "../components/Filter.svelte";
+import TagExamples from "../components/TagExamples.svelte";
 
 export const getStaticPaths = (() => {
     const paths = [];
@@ -24,6 +24,6 @@ const { tag } = Astro.params;
     <Navbar />
 
     <Content>
-        {tag}
+        <TagExamples {tag} />
     </Content>
 </Page>
