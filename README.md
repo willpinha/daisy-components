@@ -2,7 +2,7 @@
 
 <img alt="Daisy Collection" width="120" src="https://github.com/willpinha/daisy-catalog/assets/86596621/ee38de70-3564-4c55-af1f-e5f0d7c9092e" />
 
-# [Daisy Collection](https://daisy-collection.willpinha.link)
+# [Daisy Collection](https://collection.willpinha.link)
 
 *🌸 A collection of UI examples for [DaisyUI](https://github.com/saadeghi/daisyui)*
 
@@ -17,7 +17,7 @@ I didn't find more complex usage examples for DaisyUI anywhere, so I decided to 
 
 ## Installation
 
-You don't need to install anything! Just copy/paste any [UI example](https://daisy-collection.willpinha.link) into your project
+You don't need to install anything! Just copy/paste any [UI example](https://collection.willpinha.link) into your project
 
 > [!IMPORTANT]  
 > All examples are made with DaisyUI and TailwindCSS, so make sure you have these dependencies in your project. We also use [Font Awesome](https://fontawesome.com)
