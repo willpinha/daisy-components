@@ -32,7 +32,7 @@
 				{@html html}
 			</div>
 
-            <a target="_blank" href="https://github.com/willpinha/daisy-collection/blob/master/examples/{tag}/{example}.html" class="tab">
+            <a target="_blank" href="https://github.com/willpinha/daisy-collection/blob/master/src/examples/{tag}/{example}.html" class="tab">
                 Code
             </a>
 
