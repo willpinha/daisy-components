@@ -22,15 +22,15 @@
 		</a>
 
 		<!-- Themes -->
-		<details class="dropdown dropdown-bottom dropdown-end">
-			<summary class="btn btn-ghost">
+		<div class="dropdown dropdown-bottom dropdown-end">
+			<button class="btn btn-ghost">
 				<i class="fa-solid fa-palette"></i>
 				<span class="hidden sm:flex">Themes</span>
 
 				<span class="hidden sm:flex">
 					<i class="fa-solid fa-angle-down"></i>
 				</span>
-			</summary>
+			</button>
 
 			<!-- Themes -->
 			<div class="flex flex-col dropdown-content gap-2 mt-2 z-10 p-4 shadow-2xl bg-base-200 rounded-box w-64 h-72 overflow-y-scroll">
@@ -50,6 +50,6 @@
 					</button>
 				{/each}
 			</div>
-		</details>
+		</div>
 	</div>
 </nav>
