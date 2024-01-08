@@ -32,11 +32,11 @@
 				{@html html}
 			</div>
 
-            <a href="https://github.com/willpinha/daisy-collection/blob/master/examples/{tag}/{example}.html" class="tab">
+            <a target="_blank" href="https://github.com/willpinha/daisy-collection/blob/master/examples/{tag}/{example}.html" class="tab">
                 Code
             </a>
 
-            <a href="/playground/{tag}/{example}" class="tab">Playground</a>
+            <a target="_blank" href="/playground/{tag}/{example}" class="tab">Playground</a>
 		</div>
 	</div>
 
