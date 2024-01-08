@@ -32,19 +32,3 @@ export default [
     "nord",
     "sunset",
 ];
-
-export const darkThemes = [
-    "dark",
-    "synthwave",
-    "halloween",
-    "forest",
-    "aqua",
-    "black",
-    "luxury",
-    "dracula",
-    "business",
-    "night",
-    "coffee",
-    "dim",
-    "sunset"
-];
