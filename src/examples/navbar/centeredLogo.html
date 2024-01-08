@@ -1,67 +1,55 @@
-<div class="drawer">
-    <input id="centered-logo-drawer" type="checkbox" class="drawer-toggle" />
+<!-- Navbar -->
+<nav class="navbar bg-base-300">
+    <!-- Menu for mobile -->
+    <div class="w-full flex justify-between md:hidden">
+        <!-- Logo -->
+        <a class="btn btn-ghost text-lg">
+            <i class="fa-solid fa-gamepad text-primary"></i>
+            Game Name
+        </a>
 
-    <div class="drawer-content">
-        <!-- Navbar -->
-        <nav class="navbar md:grid grid-cols-5 justify-between gap-2 bg-base-300">
-            <!-- Left menu -->
-            <ul class="col-span-2 menu md:menu-horizontal justify-end hidden">
+        <div class="dropdown dropdown-end">
+            <button class="btn btn-ghost">
+                <i class="fa-solid fa-bars text-lg"></i>
+            </button>
+
+            <ul tabindex="0" class="dropdown-content menu z-[1] bg-base-200 p-6 rounded-box shadow w-56 gap-2">
                 <li><a>About</a></li>
-                <li><a>Team</a></li>
+                <li><a>Teams</a></li>
                 <li><a>News</a></li>
-            </ul>
-
-            <!-- Centered logo -->
-            <div class="flex justify-center">
-                <a class="btn btn-ghost text-lg">
-                    <i class="fa-solid fa-gamepad text-primary"></i>
-                    Game Name
-                </a>
-            </div>
-
-            <!-- Right menu -->
-            <ul class="col-span-2 menu md:menu-horizontal justify-start gap-4 hidden">
                 <li><a>Community</a></li>
                 <a class="btn btn-primary btn-sm">
                     <i class="fa-brands fa-space-awesome"></i>
                     Access
                 </a>
             </ul>
-
-            <!-- Drawer button -->
-            <label for="centered-logo-drawer" class="btn btn-ghost drawer-button md:hidden">
-                <i class="fa-solid fa-bars text-lg"></i>
-            </label>
-        </nav>
-    </div>
-
-    <div class="drawer-side z-[1]">
-        <label for="centered-logo-drawer" aria-label="close sidebar" class="drawer-overlay"></label>
-
-        <!-- Opened drawer -->
-        <div class="flex flex-col w-80 min-h-full bg-base-200">
-            <!-- Logo -->
-            <div class="flex justify-center py-4 border-b border-neutral">
-                <a class="btn btn-ghost btn-sm text-lg">
-                    <i class="fa-solid fa-gamepad text-primary"></i>
-                    Game Name
-                </a>
-            </div>
-
-            <ul class="menu">
-                <li>
-                    <a>
-                        <i class="fa-solid fa-circle-info text-secondary"></i>
-                        About
-                    </a>
-                </li>
-                <li>
-                    <a>
-                        <i class="fa-solid fa-users"></i>
-                        Team 
-                    </a>
-                </li>
-            </ul>
         </div>
     </div>
-</div>
+
+    <!-- Menu for desktop -->
+    <div class="hidden md:grid grid-cols-5 gap-2">
+        <!-- Left menu -->
+        <ul class="col-span-2 menu md:menu-horizontal justify-end hidden">
+            <li><a>About</a></li>
+            <li><a>Team</a></li>
+            <li><a>News</a></li>
+        </ul>
+
+        <!-- Centered logo -->
+        <div class="flex justify-center">
+            <a class="btn btn-ghost text-lg">
+                <i class="fa-solid fa-gamepad text-primary"></i>
+                Game Name
+            </a>
+        </div>
+
+        <!-- Right menu -->
+        <ul class="col-span-2 menu md:menu-horizontal justify-start gap-4 hidden">
+            <li><a>Community</a></li>
+            <a class="btn btn-primary btn-sm">
+                <i class="fa-brands fa-space-awesome"></i>
+                Access
+            </a>
+        </ul>
+    </div>
+</nav>
