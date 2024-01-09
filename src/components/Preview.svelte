@@ -1,12 +1,21 @@
 <script lang="ts">
+    import { onMount } from "svelte";
+
 	export let tag: string;
 	export let example: string;
     export let html: string;
+
+	let preview: HTMLElement;
 
 	// Lower camel case to lower case with spaces
 	function convertExampleName(name: string): string {
 		return name.replace(/([a-z])([A-Z])/g, '$1 $2').toLowerCase();
 	}
+
+	onMount(() => {
+		console.log(preview.style.height);
+		preview.style.height = 20 + preview.scrollHeight + "px";
+	});
 </script>
 
 <li>
@@ -28,7 +37,7 @@
 				aria-label="Preview"
 				checked
 			/>
-			<div role="tabpanel" class="tab-content border-base-300 rounded-box p-3 overflow-x-auto">
+			<div bind:this={preview} role="tabpanel" class="flex tab-content border-base-300 rounded-box p-3 overflow-x-auto">
 				{@html html}
 			</div>
 
