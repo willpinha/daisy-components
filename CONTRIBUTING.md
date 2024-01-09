@@ -58,16 +58,16 @@ That's it. If you followed all the steps, your UI example will be added to the c
 
 > [!WARNING]
 > Please be aware that there are no guarantees that your pull request will be accepted. If it is not
-> accepted, a comment will be left explaining why.
+> accepted, a comment will be left explaining why
 
 ## Other ways to contribute
 
-### Report problems
+### [Report problems](https://github.com/willpinha/daisy-collection/issues/new?assignees=willpinha&labels=bug&projects=&template=report_problem.yml)
 
 If you find any bugs in the collection or ways to improve the existing code, please submit an issue 
 explaining the problem. If it's simple to solve, you can submit a pull request referencing your issue
 
-### Make feature requests
+### [Make feature requests](https://github.com/willpinha/daisy-collection/issues/new?assignees=willpinha&labels=enhancement&projects=&template=feature_request.yml)
 
 If you would like to see any new features in this collection, please submit an issue explaining which 
 feature you want. If it's simple to implement, you can submit a pull request referencing your issue
