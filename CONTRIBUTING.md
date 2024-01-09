@@ -1,13 +1,11 @@
 # Contributing to the Daisy Collection
 
-Thank you for considering contributing to our open source project. Whether you are repairing a
+Thank you for considering contributing to our open source project. Whether you are fixing a
 bug, implementing a new feature or improving code, your efforts make a difference. Together,
 We can create an amazing collection of UI examples for DaisyUI that everyone can use!
 
 The main way to contribute is by adding new user interface (UI) examples such as navigation bars, sidebars, authentication forms, blog sections, and so on. Other ways to contribute include reporting 
 issues and make feature requests
-
-## Coding conventions
 
 ## Guide to add a new UI example
 
@@ -45,6 +43,9 @@ for a navigation bar with centered logo
 In the HTML file, you can use TailwindCSS, DaisyUI and Font Awesome. Make sure to add simple
 HTML comments in code to separate and organize it better
 
+> [!IMPORTANT]
+> To make things more organized, add only one UI example per pull request
+
 ### 4. Make a pull request
 
 After you finish your UI example, submit a pull request. Make sure your UI example:
@@ -66,7 +67,7 @@ That's it. If you followed all the steps, your UI example will be added to the c
 If you find any bugs in the collection or ways to improve the existing code, please submit an issue 
 explaining the problem. If it's simple to solve, you can submit a pull request referencing your issue
 
-### Make feature request
+### Make feature requests
 
 If you would like to see any new features in this collection, please submit an issue explaining which 
 feature you want. If it's simple to implement, you can submit a pull request referencing your issue
