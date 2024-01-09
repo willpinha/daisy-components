@@ -13,7 +13,7 @@
 	}
 
 	onMount(() => {
-		console.log(preview.style.height);
+		// Prevents height scroll
 		preview.style.height = 20 + preview.scrollHeight + "px";
 	});
 </script>
