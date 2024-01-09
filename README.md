@@ -19,9 +19,10 @@ I didn't find more complex usage examples for DaisyUI anywhere, so I decided to 
 
 You don't need to install anything! Just copy/paste any [UI example](https://collection.willpinha.link) into your project
 
-> [!IMPORTANT]  
-> All examples are made with DaisyUI and TailwindCSS, so make sure you have these dependencies in your project. We also use [Font Awesome](https://fontawesome.com)
-> for the icons, but you can replace it with any other icon library
+> [!IMPORTANT]
+> All eamples are made with DaisyUI and TailwindCSS, so make sure you have these dependencies in your 
+> project. We also use [Font Awesome](https://fontawesome.com) for the icons, but you can replace it 
+> with any other icon library
 
 ## Contributing
 
