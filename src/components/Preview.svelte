@@ -28,7 +28,7 @@
 				aria-label="Preview"
 				checked
 			/>
-			<div role="tabpanel" class="tab-content border-base-300 rounded-box p-3">
+			<div role="tabpanel" class="tab-content border-base-300 rounded-box p-3 overflow-x-auto">
 				{@html html}
 			</div>
 
