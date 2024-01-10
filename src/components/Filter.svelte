@@ -18,6 +18,7 @@
 		🌸 You can find
 		<span class="badge badge-accent badge-outline badge-sm">{numExamples}</span> UI examples in
 		<span class="badge badge-accent badge-outline badge-sm">{tags.length}</span> tags!
+		<a href="/all" class="link link-accent">See all here</a>
 	</div>
 
 	<label for="filter" class="flex relative items-center">
