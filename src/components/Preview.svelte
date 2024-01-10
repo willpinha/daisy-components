@@ -13,8 +13,12 @@
 	}
 
 	onMount(() => {
-		// Prevents height scroll
-		preview.style.height = 20 + preview.scrollHeight + "px";
+		const hasScrolling = preview.scrollHeight > preview.clientHeight;
+
+		if (hasScrolling) {
+			// Prevents vertical scrolling
+			preview.style.height = 20 + preview.scrollHeight + "px";
+		}
 	});
 </script>
 
