@@ -30,7 +30,7 @@
 		<input id="filter" placeholder="Filter tags..." class="input input-bordered pl-12" bind:value={filter} />
 	</label>
 
-	<div class="flex flex-wrap justify-center gap-2">
+	<div class="flex flex-wrap justify-center gap-2 max-w-xl">
 		{#each tags as tag}
 			<a
 				href="/{tag}"
