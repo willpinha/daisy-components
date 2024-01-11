@@ -6,7 +6,7 @@
 
 *🌸 A collection of UI examples for [DaisyUI](https://github.com/saadeghi/daisyui)*
 
-https://github.com/willpinha/daisy-collection/assets/86596621/613ec4e1-f6a3-440e-9583-cb13d216a133
+https://github.com/willpinha/daisy-collection/assets/86596621/986b7612-73aa-4e00-b256-ffd0ad74bb9d
 
 </div>
 
