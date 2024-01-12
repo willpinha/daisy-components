@@ -23,14 +23,14 @@
 
 		<!-- Themes -->
 		<div class="dropdown dropdown-bottom dropdown-end">
-			<button class="btn btn-ghost">
+			<div role="button" tabindex="0" class="btn btn-ghost">
 				<i class="fa-solid fa-palette"></i>
 				<span class="hidden sm:flex">Themes</span>
 
 				<span class="hidden sm:flex">
 					<i class="fa-solid fa-angle-down"></i>
 				</span>
-			</button>
+			</div>
 
 			<!-- Themes -->
 			<div class="flex flex-col dropdown-content gap-2 mt-2 z-10 p-4 shadow-2xl bg-base-200 rounded-box w-64 h-72 overflow-y-scroll">
