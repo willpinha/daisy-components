@@ -13,7 +13,15 @@
 I used DaisyUI in some projects and the amount of functionality it offers without any JavaScript code is incredible, not to mention the different themes and
 colors available
 
-I didn't find more complex usage examples for DaisyUI anywhere, so I decided to create this collection. I hope it inspires you in your projects
+I didn't find more complex usage examples for DaisyUI anywhere, so I decided to create this collection. I hope it inspires you in your projects. You can
+access the collection [here](https://collection.willpinha.link)
+
+## Features
+
+- Mobile responsive UI examples
+- Supports all 32 DaisyUI themes
+- Constantly growing collection
+- Free and open source, forever
 
 ## Installation
 
