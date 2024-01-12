@@ -6,8 +6,6 @@
 
 *🌸 A collection of UI examples for [DaisyUI](https://github.com/saadeghi/daisyui)*
 
-https://github.com/willpinha/daisy-collection/assets/86596621/986b7612-73aa-4e00-b256-ffd0ad74bb9d
-
 </div>
 
 ## Why this collection?
@@ -15,7 +13,8 @@ https://github.com/willpinha/daisy-collection/assets/86596621/986b7612-73aa-4e00
 I used DaisyUI in some projects and the amount of functionality it offers without any JavaScript code is incredible, not to mention the different themes and
 colors available
 
-I didn't find more complex usage examples for DaisyUI anywhere, so I decided to create this collection. I hope it inspires you in your projects
+I didn't find more complex usage examples for DaisyUI anywhere, so I decided to create this collection. I hope it inspires you in your projects. You can
+access the collection [here](https://collection.willpinha.link)
 
 ## Features
 
