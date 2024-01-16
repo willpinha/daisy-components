@@ -22,19 +22,30 @@ I didn't find more complex usage examples for DaisyUI anywhere, so I decided to 
 
 ## Features
 
-- Mobile responsive UI examples
-- Supports all 32 DaisyUI themes
-- Constantly growing collection
-- Free and open source, forever
+- 📱 Mobile responsive UI examples
+- 🎨 Supports all 32 DaisyUI themes
+- 🏗️ Constantly growing collection
+- 📖 Free and open source, forever
 
-## Installation
+## FAQ
 
-You don't need to install anything! Just copy/paste any [UI example](https://collection.willpinha.link) into your project
+### What do I need to install?
+
+You don't need to install anything! Just copy/paste any UI example into your project
 
 > [!IMPORTANT]
 > All eamples are made with DaisyUI and TailwindCSS, so make sure you have these dependencies in your 
 > project. We also use [Font Awesome](https://fontawesome.com) for the icons, but you can replace it 
 > with any other icon library
+
+### What is a UI example?
+
+An example UI is a part of a user interface that uses HTML and DaisyUI and can be copied into your project. You can have UI examples like a
+navigation bar with centered logo and a navigation bar with dropdown menu
+
+### What is a tag?
+
+A tag is a folder that groups similar UI examples together. You can have tags like `#navbar`, `#blogSection` and `#sidebar`
 
 ## Contributing
 
@@ -42,6 +53,12 @@ This collection is made by the community and you can contribute!
 
 > [!TIP] 
 > If you want to contribute, take a look at the [CONTRIBUTING](CONTRIBUTING.md) guide
+
+## Contributors
+
+This collection exists thanks to all the people who contribute
+
+![Contributors](https://contrib.rocks/image?repo=willpinha/daisy-collection)
 
 ## License
 
