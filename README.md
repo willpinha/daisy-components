@@ -56,10 +56,10 @@ This collection is made by the community and you can contribute!
 
 ## Contributors
 
-This collection exists thanks to all the people who contribute
+This collection exists thanks to all the people who contribute ❤️
 
 ![Contributors](https://contrib.rocks/image?repo=willpinha/daisy-collection)
 
 ## License
 
-This repository is under the [MIT license](LICENSE)!
+This repository is under the [MIT license](LICENSE)
