@@ -2,19 +2,23 @@
 
 <img alt="Daisy Collection" width="120" src="https://github.com/willpinha/daisy-catalog/assets/86596621/ee38de70-3564-4c55-af1f-e5f0d7c9092e" />
 
-# [Daisy Collection](https://collection.willpinha.link)
+# Daisy Collection
 
 *🌸 A collection of UI examples for [DaisyUI](https://github.com/saadeghi/daisyui)*
 
 </div>
+
+## You can see...
+
+### [🌸 The collection →]()
+### [🌸 All UI examples →]()
 
 ## Why this collection?
 
 I used DaisyUI in some projects and the amount of functionality it offers without any JavaScript code is incredible, not to mention the different themes and
 colors available
 
-I didn't find more complex usage examples for DaisyUI anywhere, so I decided to create this collection. I hope it inspires you in your projects. You can
-access the collection [here](https://collection.willpinha.link)
+I didn't find more complex usage examples for DaisyUI anywhere, so I decided to create this collection. I hope it inspires you in your projects!
 
 ## Features
 
