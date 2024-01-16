@@ -1,5 +1,5 @@
 <!-- Sidebar -->
-<nav class="min-h-screen w-72 flex flex-col bg-base-200">
+<aside class="h-screen w-72 flex flex-col bg-base-200">
     <!-- Header -->
     <div class="flex justify-between p-2">
         <!-- Logo -->
@@ -48,15 +48,18 @@
     </ul>
 
     <!-- Footer -->
-    <div class="flex p-4 justify-between items-center">
-        <div class="flex flex-col">
-            <span class="font-bold">User name</span>
-            <span class="text-sm text-accent">user@email.com</span>
-        </div>
+    <div class="flex justify-between items-center p-2">
+        <a class="btn">
+            <img alt="Profile" src="/images/avatar.png" class="w-8 rounded-full" />
 
-        <a class="btn btn-error btn-sm">
-            <i class="fa-solid fa-right-from-bracket"></i>
-            Log out 
+            <div class="flex flex-col text-start">
+                <span class="font-bold">User name</span>
+                <span class="text-sm text-accent">user@email.com</span>
+            </div>
+        </a>
+
+        <a class="btn btn-error btn-sm mr-3" title="Logout">
+            <i class="fa-solid fa-door-open"></i>
         </a>
     </div>
-</nav>
+</aside>
