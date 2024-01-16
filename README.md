@@ -40,7 +40,7 @@ You don't need to install anything! Just copy/paste any UI example into your pro
 
 ### What is a UI example?
 
-An example UI is a part of a user interface that uses HTML and DaisyUI and can be copied into your project. You can have UI examples like a
+A UI example is a part of a user interface that uses HTML and DaisyUI and can be copied into your project. You can have UI examples like a
 navigation bar with centered logo and a navigation bar with dropdown menu
 
 ### What is a tag?
