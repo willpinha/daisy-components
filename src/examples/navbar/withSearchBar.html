@@ -1,0 +1,95 @@
+<div class="navbar bg-base-300 flex justify-between gap-4">
+    <!-- Logo -->
+    <a class="btn btn-ghost text-lg">
+        <img alt="Logo" src="/logo.svg" class="w-4" />
+        Company
+    </a>
+
+    <div class="join w-full max-w-xl hidden md:inline-flex">
+
+        <div class="dropdown">
+
+            <!-- Dropdown button. -->
+            <!-- Class "join-item" doesn't work here because its not direct child of class "join" -->
+            <button class="btn btn-sm btn-ghost border-primary bg-base-100 w-max rounded-r-none">
+                Product
+                <i class="fa fa-caret-down" aria-hidden="true"></i>
+            </button>
+
+            <!-- Dropdown menu -->
+            <ul tabindex="0" class="dropdown-content menu menu-sm z-[1] bg-base-200 p-4 rounded-box shadow w-max">
+                <li><a>Good potions</a></li>
+                <li><a>Bad potions</a></li>
+                <li><a>Illegal potions</a></li>
+            </ul>
+        </div>
+
+        <!-- Search input -->
+        <input class="join-item input input-sm input-bordered input-primary w-full" type="text" placeholder="Search">
+
+        <!-- Search button -->
+        <button class="join-item btn btn-sm btn-primary">
+            <i class="fa fa-search" aria-hidden="true"></i>
+        </button>
+        
+    </div>
+
+    <!-- Right side menu for desktop -->
+    <nav class="shrink-0 hidden sm:flex gap-2">
+        <a class="btn btn-sm btn-ghost">Create Account</a>
+        <a class="btn btn-sm btn-primary">
+            Log in
+            <i class="fa fa-arrow-right text-xs" aria-hidden="true"></i>
+        </a>
+    </nav>
+
+    <!-- Menu for mobile -->
+    <div class="dropdown dropdown-end sm:hidden">
+
+        <!-- Open mobile dropdown menu button -->
+        <button class="btn btn-ghost">
+            <i class="fa-solid fa-bars text-lg"></i>
+        </button>
+
+        <!-- Create account or Login dropdown -->
+        <ul tabindex="0" class="dropdown-content menu z-[1] bg-base-200 p-6 rounded-box shadow w-56 gap-2 ">
+            <a class="btn btn-ghost">Create Account</a>
+            <a class="btn btn-primary">
+                Log in
+                <i class="fa fa-arrow-right text-xs" aria-hidden="true"></i>
+            </a>
+        </ul>
+    </div>
+</div>
+
+<!-- Search bar that only show on mobile, below the main navbar -->
+<div class="w-full md:hidden px-6 py-6 bg-base-300 border-t border-neutral">
+    <div class="join w-full max-w-xl ">
+
+        <div class="dropdown">
+
+            <!-- Dropdown button. -->
+            <!-- Class "join-item" doesn't work here because its not direct child of class "join" -->
+            <button class="btn  btn-ghost border-primary bg-base-100 w-max rounded-r-none">
+                Product
+                <i class="fa fa-caret-down" aria-hidden="true"></i>
+            </button>
+
+            <!-- Dropdown menu -->
+            <ul tabindex="0" class="dropdown-content menu menu-sm z-[1] bg-base-200 p-4 rounded-box shadow w-max">
+                <li><a>Good potions</a></li>
+                <li><a>Bad potions</a></li>
+                <li><a>Illegal potions</a></li>
+            </ul>
+        </div>
+
+        <!-- Search input -->
+        <input class="join-item input  input-bordered input-primary w-full" type="text" placeholder="Search">
+
+        <!-- Search button -->
+        <button class="join-item btn  btn-primary">
+            <i class="fa fa-search" aria-hidden="true"></i>
+        </button>
+
+    </div>
+</div>
