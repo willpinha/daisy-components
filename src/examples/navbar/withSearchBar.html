@@ -1,0 +1,73 @@
+<div class="flex flex-col">
+    <!-- Top navbar (always visible) -->
+    <nav class="navbar justify-between gap-4 bg-base-300">
+        <!-- Logo -->
+        <a class="btn btn-ghost text-lg">
+            <img alt="Logo" src="/logo.svg" class="w-4" />
+            Company
+        </a>
+
+        <!-- Search -->
+        <div class="join w-full max-w-xl hidden sm:inline-flex">
+            <!-- Search options -->
+            <select class="select select-sm select-bordered join-item">
+                <option selected>Good potions</option>
+                <option>Bad potions</option>
+                <option>Illegal potions</option>
+            </select>
+
+            <!-- Search input -->
+            <input class="join-item input input-sm input-bordered w-full" type="text" placeholder="Search">
+
+            <!-- Search button -->
+            <button class="join-item btn btn-sm btn-primary text-success-content">
+                <i class="fa fa-search" aria-hidden="true"></i>
+            </button>
+        </div>
+
+        <!-- Menu (Desktop) -->
+        <div class="shrink-0 hidden md:flex gap-2">
+            <a class="btn btn-sm btn-ghost">Create Account</a>
+            <a class="btn btn-sm btn-primary">
+                Log in
+                <i class="fa-solid fa-right-to-bracket" aria-hidden="true"></i>
+            </a>
+        </div>
+
+        <!-- Menu (Mobile) -->
+        <div class="dropdown dropdown-end md:hidden">
+            <button class="btn btn-ghost">
+                <i class="fa-solid fa-bars text-lg"></i>
+            </button>
+
+            <ul tabindex="0" class="dropdown-content menu z-[1] bg-base-200 p-4 rounded-box shadow w-56 gap-2">
+                <li><a>Create Account</a></li>
+                <a class="btn btn-primary btn-sm">
+                    Log in
+                    <i class="fa fa-arrow-right text-xs" aria-hidden="true"></i>
+                </a>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Botton navbar (mobile only) -->
+    <nav class="navbar sm:hidden bg-base-200 border-neutral">
+        <!-- Search -->
+        <div class="join w-full">
+            <!-- Search options -->
+            <select class="select select-sm select-bordered join-item">
+                <option selected>Good potions</option>
+                <option>Bad potions</option>
+                <option>Illegal potions</option>
+            </select>
+
+            <!-- Search input -->
+            <input class="join-item input input-sm input-bordered w-full" type="text" placeholder="Search">
+
+            <!-- Search button -->
+            <button class="join-item btn btn-sm btn-primary text-success-content">
+                <i class="fa fa-search" aria-hidden="true"></i>
+            </button>
+        </div>
+    </nav>
+</div>
