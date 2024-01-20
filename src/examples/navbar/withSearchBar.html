@@ -1,96 +1,73 @@
-<div class="navbar bg-base-300 flex justify-between gap-4">
+<div class="flex flex-col">
+    <!-- Top navbar (always visible) -->
+    <nav class="navbar justify-between gap-4 bg-base-300">
+        <!-- Logo -->
+        <a class="btn btn-ghost text-lg">
+            <img alt="Logo" src="/logo.svg" class="w-4" />
+            Company
+        </a>
 
-    <!-- Logo -->
-    <a class="btn btn-ghost text-lg">
-        <img alt="Logo" src="/logo.svg" class="w-4" />
-        Company
-    </a>
+        <!-- Search -->
+        <div class="join w-full max-w-xl hidden sm:inline-flex">
+            <!-- Search options -->
+            <select class="select select-sm select-bordered join-item">
+                <option selected>Good potions</option>
+                <option>Bad potions</option>
+                <option>Illegal potions</option>
+            </select>
 
-    <div class="join w-full max-w-xl hidden md:inline-flex">
+            <!-- Search input -->
+            <input class="join-item input input-sm input-bordered w-full" type="text" placeholder="Search">
 
-        <div class="dropdown">
-
-            <!-- Dropdown button. -->
-            <!-- Class "join-item" doesn't work here because its not direct child of class "join" -->
-            <button class="btn btn-sm btn-ghost border-primary bg-base-100 w-max rounded-r-none">
-                Product
-                <i class="fa fa-caret-down" aria-hidden="true"></i>
+            <!-- Search button -->
+            <button class="join-item btn btn-sm btn-primary text-success-content">
+                <i class="fa fa-search" aria-hidden="true"></i>
             </button>
-
-            <!-- Dropdown menu -->
-            <ul tabindex="0" class="dropdown-content menu menu-sm z-[1] bg-base-200 p-4 rounded-box shadow w-max">
-                <li><a>Good potions</a></li>
-                <li><a>Bad potions</a></li>
-                <li><a>Illegal potions</a></li>
-            </ul>
         </div>
 
-        <!-- Search input -->
-        <input class="join-item input input-sm input-bordered input-primary w-full" type="text" placeholder="Search">
+        <!-- Menu (Desktop) -->
+        <div class="shrink-0 hidden md:flex gap-2">
+            <a class="btn btn-sm btn-ghost">Create Account</a>
+            <a class="btn btn-sm btn-primary">
+                Log in
+                <i class="fa-solid fa-right-to-bracket" aria-hidden="true"></i>
+            </a>
+        </div>
 
-        <!-- Search button -->
-        <button class="join-item btn btn-sm btn-primary">
-            <i class="fa fa-search" aria-hidden="true"></i>
-        </button>
+        <!-- Menu (Mobile) -->
+        <div class="dropdown dropdown-end md:hidden">
+            <button class="btn btn-ghost">
+                <i class="fa-solid fa-bars text-lg"></i>
+            </button>
 
-    </div>
-
-    <!-- Right side menu for desktop -->
-    <nav class="shrink-0 hidden sm:flex gap-2">
-        <a class="btn btn-sm btn-ghost">Create Account</a>
-        <a class="btn btn-sm btn-primary">
-            Log in
-            <i class="fa fa-arrow-right text-xs" aria-hidden="true"></i>
-        </a>
+            <ul tabindex="0" class="dropdown-content menu z-[1] bg-base-200 p-4 rounded-box shadow w-56 gap-2">
+                <li><a>Create Account</a></li>
+                <a class="btn btn-primary btn-sm">
+                    Log in
+                    <i class="fa fa-arrow-right text-xs" aria-hidden="true"></i>
+                </a>
+            </ul>
+        </div>
     </nav>
 
-    <!-- Menu for mobile -->
-    <div class="dropdown dropdown-end sm:hidden">
+    <!-- Botton navbar (mobile only) -->
+    <nav class="navbar sm:hidden bg-base-200 border-neutral">
+        <!-- Search -->
+        <div class="join w-full">
+            <!-- Search options -->
+            <select class="select select-sm select-bordered join-item">
+                <option selected>Good potions</option>
+                <option>Bad potions</option>
+                <option>Illegal potions</option>
+            </select>
 
-        <!-- Open mobile dropdown menu button -->
-        <button class="btn btn-ghost">
-            <i class="fa-solid fa-bars text-lg"></i>
-        </button>
+            <!-- Search input -->
+            <input class="join-item input input-sm input-bordered w-full" type="text" placeholder="Search">
 
-        <!-- Create account or Login dropdown -->
-        <ul tabindex="0" class="dropdown-content menu z-[1] bg-base-200 p-6 rounded-box shadow w-56 gap-2 ">
-            <a class="btn btn-ghost">Create Account</a>
-            <a class="btn btn-primary">
-                Log in
-                <i class="fa fa-arrow-right text-xs" aria-hidden="true"></i>
-            </a>
-        </ul>
-    </div>
-</div>
-
-<!-- Search bar that only shows on mobile, below the main navbar -->
-<div class="w-full md:hidden px-6 py-6 bg-base-300 border-t border-neutral">
-    <div class="join w-full max-w-xl ">
-
-        <div class="dropdown">
-
-            <!-- Dropdown button. -->
-            <!-- Class "join-item" doesn't work here because its not direct child of class "join" -->
-            <button class="btn  btn-ghost border-primary bg-base-100 w-max rounded-r-none">
-                Product
-                <i class="fa fa-caret-down" aria-hidden="true"></i>
+            <!-- Search button -->
+            <button class="join-item btn btn-sm btn-primary text-success-content">
+                <i class="fa fa-search" aria-hidden="true"></i>
             </button>
-
-            <!-- Dropdown menu -->
-            <ul tabindex="0" class="dropdown-content menu menu-sm z-[1] bg-base-200 p-4 rounded-box shadow w-max">
-                <li><a>Good potions</a></li>
-                <li><a>Bad potions</a></li>
-                <li><a>Illegal potions</a></li>
-            </ul>
         </div>
-
-        <!-- Search input -->
-        <input class="join-item input  input-bordered input-primary w-full" type="text" placeholder="Search">
-
-        <!-- Search button -->
-        <button class="join-item btn  btn-primary">
-            <i class="fa fa-search" aria-hidden="true"></i>
-        </button>
-
-    </div>
+    </nav>
 </div>
