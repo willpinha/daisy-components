@@ -1,0 +1,27 @@
+name: 🏔️ Point out an improvement 
+description: Point out a possible improvement to a UI example
+labels: ["improvement"]
+assignees:
+  - willpinha
+body:
+  - type: input
+    attributes:
+      label: For which tag?
+      description: Write the name of the tag where the UI example is located
+    
+  - type: input
+    attributes:
+      label: For which UI example?
+      description: Write the name of the UI example you want to improve
+
+  - type: textarea
+    attributes:
+      label: Description
+      description: Provide a clear and concise description of the improvement you want to make 
+    validations:
+      required: true
+    
+  - type: textarea
+    attributes:
+      label: Benefits
+      description: Highlight the advantages and benefits of implementing this improvement 

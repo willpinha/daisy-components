@@ -1,22 +1,27 @@
-name: Report a problem 
-description: Report a bug or a code improvement 
-labels: ["bug"]
+name: ⚠️ Report a problem 
+description: Report a problem in a UI example
+labels: ["problem"]
 assignees:
   - willpinha
 body:
+  - type: input
+    attributes:
+      label: For which tag?
+      description: Write the name of the tag where the UI example is located
+    
+  - type: input
+    attributes:
+      label: For which UI example?
+      description: Write the name of the UI example with problems 
+
   - type: textarea
     attributes:
       label: Description
-      description: Provide a clear and concise description of the problem or issue you are encountering. If it's a code improvement suggestion, briefly explain the area that could be enhanced
+      description: Provide a clear and concise description of the problem you are encountering
     validations:
       required: true
 
   - type: textarea
     attributes:
-      label: Steps to reproduce (for bugs)
-      description: If reporting a bug, provide detailed steps to reproduce the issue. Include information like input data, expected behavior, and actual behavior. If not applicable, skip this section
-    
-  - type: textarea 
-    attributes:
-      label: Screenshots or Error Messages (if applicable)
-      description: Include screenshots or error messages that help illustrate the problem
+      label: Screenshots (if applicable)
+      description: Include screenshots that help illustrate the problem
