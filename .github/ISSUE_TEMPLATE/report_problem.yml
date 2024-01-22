@@ -8,11 +8,15 @@ body:
     attributes:
       label: For which tag?
       description: Write the name of the tag where the UI example is located
+    validations:
+      required: true
     
   - type: input
     attributes:
       label: For which UI example?
       description: Write the name of the UI example with problems 
+    validations:
+      required: true
 
   - type: textarea
     attributes:
