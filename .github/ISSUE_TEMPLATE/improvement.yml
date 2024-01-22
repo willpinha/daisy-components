@@ -25,3 +25,10 @@ body:
     attributes:
       label: Benefits
       description: Highlight the advantages and benefits of implementing this improvement 
+
+  - type: checkboxes
+    attributes:
+      label: Do you want to contribute to this issue?
+      description: If you want, you will be assigned to the issue and can make a pull request fixing it.
+      Otherwise, a `help-wanted` label will be added to it. The first contributor who asks to
+      contribute will be assigned the issue and the `help-wanted` label will be removed
