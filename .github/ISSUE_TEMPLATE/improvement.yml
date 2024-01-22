@@ -36,7 +36,7 @@ body:
       description: >
         If you want, you will be assigned to the issue and can make a pull request fixing it.
         Otherwise, a `help-wanted` label will be added to it. The first contributor who asks to
-        contribute will be assigned the issue and the `help-wanted` label will be removed
+        contribute will be assigned to the issue and the `help-wanted` label will be removed
       options:
         - Yes, I want to contribute!
         - No, I will leave the issue to another contributor
