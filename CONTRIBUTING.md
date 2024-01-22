@@ -6,11 +6,11 @@ collection of UI examples for DaisyUI that everyone can use!
 
 Currently, there are 4 ways to contribute:
 
-- [Add new UI examples]() such as navigation bars, sidebars, authentication forms, blog sections,
-  and so on
-- [Report problems with UI examples]()
-- [Point out improvements to UI examples]()
-- [Share with others]()
+- [Add new UI examples](#add-a-new-ui-example) such as navigation bars, sidebars, authentication forms, 
+  blog sections, and so on
+- [Report problems with UI examples](#report-problems-with-ui-examples)
+- [Point out improvements to UI examples](#point-out-improvements-to-ui-examples)
+- [Share with others](#share-with-others)
 
 ## Project structure
 
