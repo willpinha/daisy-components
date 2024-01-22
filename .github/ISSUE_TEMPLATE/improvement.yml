@@ -36,3 +36,5 @@ body:
       options:
         - label: Yes, I want to contribute!
         - label: No, I will leave the issue to another contributor
+      validations:
+        required: true
