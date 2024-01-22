@@ -1,8 +1,6 @@
 name: ⚠️ Report a problem 
 description: Report a problem in a UI example
 labels: ["problem"]
-assignees:
-  - willpinha
 body:
   - type: input
     attributes:

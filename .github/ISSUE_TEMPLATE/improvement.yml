@@ -1,8 +1,6 @@
 name: 🏔️ Point out an improvement 
 description: Point out a possible improvement to a UI example
 labels: ["improvement"]
-assignees:
-  - willpinha
 body:
   - type: input
     attributes:
