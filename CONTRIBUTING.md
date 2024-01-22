@@ -6,11 +6,11 @@ collection of UI examples for DaisyUI that everyone can use!
 
 Currently, there are 4 ways to contribute:
 
-- [Add new UI examples]() such as navigation bars, sidebars, authentication forms, blog sections,
-  and so on
-- [Report problems with UI examples]()
-- [Point out improvements to UI examples]()
-- [Share with others]()
+- [Add new UI examples](#add-a-new-ui-example) such as navigation bars, sidebars, authentication forms, 
+  blog sections, and so on
+- [Report problems with UI examples](#report-problems-with-ui-examples)
+- [Point out improvements to UI examples](#point-out-improvements-to-ui-examples)
+- [Share with others](#share-with-others)
 
 ## Project structure
 
@@ -85,12 +85,14 @@ That's it. If you followed all the steps, your UI example will be added to the c
 
 ### Report problems with UI examples
 
-If you find any bugs in the collection or ways to improve the existing code, please submit an issue 
+If you find any problems in the collection, please
+[submit an issue](https://github.com/willpinha/daisy-collection/issues/new?assignees=willpinha&labels=problem&projects=&template=report_problem.yml)
 explaining the problem. If it's simple to solve, you can submit a pull request referencing your issue
 
 ### Point out improvements to UI examples
 
-If you see something in the look or code of a sample UI that could be improved, please submit an issue
+If you see something in the look or code of a sample UI that could be improved, please
+[submit an issue](https://github.com/willpinha/daisy-collection/issues/new?assignees=willpinha&labels=improvement&projects=&template=improvement.yml)
 explaining the improvement
 
 ### Share with others
