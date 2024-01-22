@@ -21,6 +21,12 @@ A UI example is simply an HTML file containing DaisyUI, TailwindCSS and Font Awe
 
 ## Contributing
 
+## Issues to contribute
+
+If you want to contribute to issues that are not assigned to anyone else, use
+[this issue filter](https://github.com/willpinha/daisy-collection/issues?q=is%3Aopen+is%3Aissue+label%3Ahelp-wanted)
+to select all issues with the `help-wanted` label
+
 ### Add a new UI example
 
 #### 1. Fork the repository
