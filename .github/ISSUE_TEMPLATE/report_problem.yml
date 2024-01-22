@@ -30,7 +30,7 @@ body:
       label: Screenshots (if applicable)
       description: Include screenshots that help illustrate the problem
 
-  - type: checkboxes
+  - type: dropdown 
     attributes:
       label: Do you want to contribute to this issue?
       description: >
@@ -40,5 +40,6 @@ body:
       options:
         - label: Yes, I want to contribute!
         - label: No, I will leave the issue to another contributor
+      default: 0
     validations:
       required: true
