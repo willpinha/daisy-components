@@ -38,8 +38,8 @@ body:
         Otherwise, a `help-wanted` label will be added to it. The first contributor who asks to
         contribute will be assigned the issue and the `help-wanted` label will be removed
       options:
-        - label: Yes, I want to contribute!
-        - label: No, I will leave the issue to another contributor
+        - Yes, I want to contribute!
+        - No, I will leave the issue to another contributor
       default: 0
     validations:
       required: true
