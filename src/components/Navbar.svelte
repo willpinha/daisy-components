@@ -4,7 +4,7 @@
 	export let tag: string | undefined = undefined;
 </script>
 
-<nav class="navbar bg-base-200 justify-between">
+<nav class="navbar bg-base-300 justify-between">
 	<!-- Left side -->
 	{#if tag}
 		<div class="flex gap-2">
