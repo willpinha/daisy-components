@@ -22,36 +22,32 @@
 	});
 </script>
 
-<li>
-	<div class="timeline-middle flex">
-		<i class="fa-regular fa-folder-open"></i>
-	</div>
+<div class="flex flex-col gap-2">
+	<div class="flex gap-2">
+		<i class="fa-solid fa-file"></i>
 
-	<div class="timeline-start w-full flex flex-col gap-4">
 		<span class="text-accent font-mono italic self-start">
 			{convertExampleName(example)}
-        </span>
-
-		<div role="tablist" class="tabs tabs-lifted pb-4">
-			<input
-				type="radio"
-				name="{example}"
-				role="tab"
-				class="tab"
-				aria-label="Preview"
-				checked
-			/>
-			<div bind:this={preview} role="tabpanel" class="flex tab-content border-base-300 rounded-box p-3 overflow-x-auto">
-				{@html html}
-			</div>
-
-            <a target="_blank" href="https://github.com/willpinha/daisy-collection/blob/master/src/examples/{tag}/{example}.html" class="tab">
-                Code
-            </a>
-
-            <a target="_blank" href="/playground/{tag}/{example}" class="tab">Playground</a>
-		</div>
+		</span>
 	</div>
 
-	<hr class="bg-base-200"/>
-</li>
+	<div role="tablist" class="tabs tabs-lifted pb-4">
+		<input
+			type="radio"
+			name="{example}"
+			role="tab"
+			class="tab"
+			aria-label="Preview"
+			checked
+		/>
+		<div bind:this={preview} role="tabpanel" class="flex tab-content border-base-300 rounded-box p-3 overflow-x-auto">
+			{@html html}
+		</div>
+
+		<a target="_blank" href="https://github.com/willpinha/daisy-collection/blob/master/src/examples/{tag}/{example}.html" class="tab">
+			Code
+		</a>
+
+		<a target="_blank" href="/playground/{tag}/{example}" class="tab">Playground</a>
+	</div>
+</div>

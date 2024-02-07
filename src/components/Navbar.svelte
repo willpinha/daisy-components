@@ -1,17 +1,33 @@
-<script>
+<script lang="ts">
 	import themes from "../utils/themes";
+
+	export let tag: string | undefined = undefined;
 </script>
 
-<nav class="navbar bg-base-300 justify-between">
+<nav class="navbar bg-base-200 justify-between">
 	<!-- Left side -->
-	<a href="/" class="btn btn-ghost flex gap-2">
-		<img src="/logo.svg" class="w-4 sm:w-6" alt="Daisy Catalog" />
+	{#if tag}
+		<div class="flex gap-2">
+			<a href="/" class="btn btn-ghost px-3">
+				<span class="hidden">Get back</span>
 
-		<div class="flex font-bold text-lg sm:text-2xl">
-			Daisy
-			<span class="text-primary">Collection</span>
+				<i class="fa-solid fa-arrow-left-long text-2xl"></i>
+			</a>
+
+			<span class="text-xl text-primary font-bold">
+				#{tag}
+			</span>
 		</div>
-	</a>
+	{:else}
+		<a href="/" class="btn btn-ghost flex gap-2">
+			<img src="/logo.svg" class="w-4" alt="Daisy Catalog" />
+
+			<div class="flex font-bold text-lg">
+				Daisy
+				<span class="text-primary">Collection</span>
+			</div>
+		</a>
+	{/if}
 
 	<!-- Right side -->
 	<div class="flex gap-0 sm:gap-2">

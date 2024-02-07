@@ -8,7 +8,7 @@
     const numExamples = getNumberOfExamples();
 </script>
 
-<div class="flex flex-col items-center gap-6">
+<div class="flex flex-col items-center gap-8 px-4 py-8">
 	<h1 class="text-center gap-2 text-4xl font-bold">
 		Click on a <span class="text-primary">#tag</span> to show
 		<i class="text-secondary">UI examples</i>
@@ -18,7 +18,6 @@
 		🌸 You can find
 		<span class="badge badge-accent badge-outline badge-sm">{numExamples}</span> UI examples in
 		<span class="badge badge-accent badge-outline badge-sm">{tags.length}</span> tags!
-		<a href="/all" class="link link-accent">See all here</a>
 	</div>
 
 	<label for="filter" class="flex relative items-center">
@@ -30,7 +29,7 @@
 		<input id="filter" placeholder="Filter tags..." class="input input-bordered pl-12" bind:value={filter} />
 	</label>
 
-	<div class="flex flex-wrap justify-center gap-2 max-w-xl">
+	<div class="flex flex-wrap justify-center gap-2">
 		{#each tags as tag}
 			<a
 				href="/{tag}"
