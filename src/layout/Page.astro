@@ -1,11 +1,11 @@
 ---
 	import "@fortawesome/fontawesome-free/css/all.min.css";
-	import { ViewTransitions } from "astro:transitions";
+	import { ViewTransitions, slide } from "astro:transitions";
 	
 	const { title } = Astro.props;
 ---
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" transition:animate={slide()}>
 <head>
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
