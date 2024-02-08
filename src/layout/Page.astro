@@ -33,7 +33,7 @@
 	<script>
 		import { themeChange } from "theme-change";
 
-		document.addEventListener("astro:page-load", themeChange);
+		document.addEventListener("astro:page-load", () => themeChange());
 	</script>
 
 	<ViewTransitions />
