@@ -17,7 +17,7 @@
 
 		if (hasScrolling) {
 			// Prevents vertical scrolling
-			preview.style.height = 20 + preview.scrollHeight + "px";
+			preview.style.height = 40 + preview.scrollHeight + "px";
 		}
 	});
 </script>
