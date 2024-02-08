@@ -1,11 +1,10 @@
 ---
 	import "@fortawesome/fontawesome-free/css/all.min.css";
-	import { ViewTransitions, slide } from "astro:transitions";
 	
 	const { title } = Astro.props;
 ---
 <!DOCTYPE html>
-<html lang="en" transition:animate={slide()}>
+<html lang="en">
 <head>
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -33,11 +32,8 @@
 	<script>
 		import { themeChange } from "theme-change";
 
-		// @ts-ignore
-		document.addEventListener("astro:page-load", themeChange);
+		themeChange();
 	</script>
-
-	<ViewTransitions />
 </head>
 <body>
 	<slot />	
