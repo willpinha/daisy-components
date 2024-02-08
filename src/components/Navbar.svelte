@@ -8,9 +8,9 @@
 	<!-- Left side -->
 	{#if tag}
 		<div class="flex gap-2">
-			<button class="btn btn-ghost px-3" on:click={() => history.back()}>
+			<a href="/" class="btn btn-ghost px-3">
 				<i class="fa-solid fa-arrow-left-long text-2xl"></i>
-			</button>
+			</a>
 
 			<span class="text-xl text-primary font-bold">
 				#{tag}
