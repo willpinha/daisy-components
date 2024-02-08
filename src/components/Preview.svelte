@@ -40,7 +40,7 @@
 			aria-label="Preview"
 			checked
 		/>
-		<div bind:this={preview} role="tabpanel" class="flex tab-content border-base-300 rounded-box p-3 overflow-x-auto shadow-xl">
+		<div bind:this={preview} role="tabpanel" class="flex tab-content border-base-300 rounded-box p-3 overflow-x-auto">
 			{@html html}
 		</div>
 
