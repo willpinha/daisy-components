@@ -9,10 +9,25 @@
 </script>
 
 <div class="flex flex-col items-center gap-8 px-4 py-8">
-	<h1 class="text-center gap-2 text-4xl font-bold">
-		Click on a <span class="text-primary">#tag</span> to show
-		<i class="text-secondary">UI examples</i>
-	</h1>
+	<div class="flex flex-col items-center gap-2">
+		<span class="text-sm">
+			Made with
+			<i class="fa-solid fa-heart fa-fw text-red-500"></i>
+			by
+			<a href="https://github.com/willpinha" class="link link-accent link-hover">
+				willpinha
+			</a>
+			and
+			<a href="https://github.com/willpinha/daisy-collection/graphs/contributors" class="link link-accent link-hover">
+				contributors
+			</a>
+		</span>
+
+		<h1 class="text-4xl font-bold">
+			Click on a <span class="text-primary">#tag</span> to show
+			<i class="text-secondary">UI examples</i>
+		</h1>
+	</div>
 
 	<div class="text-center">
 		🌸 You can find
