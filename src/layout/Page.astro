@@ -1,6 +1,5 @@
 ---
 	import "@fortawesome/fontawesome-free/css/all.min.css";
-	import { ViewTransitions } from "astro:transitions";
 	
 	const { title } = Astro.props;
 ---
@@ -11,9 +10,7 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<title>Collection | {title}</title>
 	<link rel="icon" type="image/x-icon" href="/logo.svg">
-	<script>
-		import { themeChange } from "theme-change";
-
+	<script is:inline>
 		/**
 		 * Prevents the FART problem (https://css-tricks.com/flash-of-inaccurate-color-theme-fart/)
 		 */
@@ -29,15 +26,16 @@
 			}
 		}
 
-		document.addEventListener("astro:page-load", () => {
-			preventFart();
-			themeChange();
-		});
+		preventFart();
 	</script>
 
-	<ViewTransitions />
+	<script>
+		import { themeChange } from "theme-change";
+
+		themeChange();
+	</script>
 </head>
-<body transition:persist>
+<body>
 	<slot />	
 </body>
 </html>
