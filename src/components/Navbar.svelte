@@ -31,11 +31,6 @@
 
 	<!-- Right side -->
 	<div class="flex gap-0 sm:gap-2">
-		<!-- Playground -->
-		<a title="Playground" href="/playground" class="btn btn-ghost btn-sm">
-			<i class="fa-solid fa-gamepad text-lg"></i>
-		</a>
-
 		<!-- GitHub -->
 		<a title="GitHub" target="_blank" href="https://github.com/willpinha/daisy-collection" class="btn btn-ghost btn-sm">
 			<i class="fa-brands fa-github text-lg"></i>
