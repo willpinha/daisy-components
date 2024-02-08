@@ -32,7 +32,7 @@
 	<!-- Right side -->
 	<div class="flex gap-0 sm:gap-2">
 		<!-- GitHub -->
-		<a title="GitHub" target="_blank" href="https://github.com/willpinha/daisy-collection" class="btn btn-ghost btn-sm">
+		<a title="GitHub" target="_blank" href="https://github.com/willpinha/daisy-collection" class="btn btn-ghost btn-circle btn-sm">
 			<i class="fa-brands fa-github text-lg"></i>
 		</a>
 
