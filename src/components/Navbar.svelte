@@ -31,21 +31,22 @@
 
 	<!-- Right side -->
 	<div class="flex gap-0 sm:gap-2">
+		<!-- Playground -->
+		<a title="Playground" href="/playground" class="btn btn-ghost btn-sm">
+			<i class="fa-solid fa-gamepad text-lg"></i>
+		</a>
+
 		<!-- GitHub -->
-		<a target="_blank" href="https://github.com/willpinha/daisy-collection" class="btn btn-ghost">
+		<a title="GitHub" target="_blank" href="https://github.com/willpinha/daisy-collection" class="btn btn-ghost btn-sm">
 			<i class="fa-brands fa-github text-lg"></i>
-			<span class="hidden sm:flex">GitHub</span>
 		</a>
 
 		<!-- Themes -->
 		<div class="dropdown dropdown-bottom dropdown-end">
-			<div role="button" tabindex="0" class="btn btn-ghost">
+			<div title="Themes" role="button" tabindex="0" class="btn btn-ghost btn-sm">
 				<i class="fa-solid fa-palette"></i>
-				<span class="hidden sm:flex">Themes</span>
 
-				<span class="hidden sm:flex">
-					<i class="fa-solid fa-angle-down"></i>
-				</span>
+				<i class="fa-solid fa-angle-down"></i>
 			</div>
 
 			<!-- Themes -->
