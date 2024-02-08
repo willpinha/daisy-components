@@ -21,9 +21,9 @@ const { tag } = Astro.params;
 ---
 
 <Page title={tag}>
+    <Navbar {tag} />
+
     <Content>
-        <Navbar {tag} />
-        
         <TagExamples client:load {tag} />
     </Content>
 </Page>
