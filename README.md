@@ -11,7 +11,6 @@
 ## You can see...
 
 ### [🌸 The collection →](https://collection.willpinha.link)
-### [🌸 All UI examples →](https://collection.willpinha.link/all)
 
 ## Why this collection?
 
