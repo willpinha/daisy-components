@@ -4,7 +4,7 @@
 
 # Daisy Collection
 
-*🌸 A collection of UI components for [DaisyUI](https://github.com/saadeghi/daisyui)*
+*🌸 A collection of UI components using [DaisyUI](https://github.com/saadeghi/daisyui)*
 
 </div>
 
