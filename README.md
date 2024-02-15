@@ -2,15 +2,11 @@
 
 <img alt="Daisy Collection" width="120" src="https://github.com/willpinha/daisy-collection/assets/86596621/ee38de70-3564-4c55-af1f-e5f0d7c9092e" />
 
-# Daisy Collection
+# [Daisy Collection](https://collection.willpinha.link)
 
 *🌸 A collection of UI components using [DaisyUI](https://github.com/saadeghi/daisyui)*
 
 </div>
-
-## You can see...
-
-### [🌸 The collection →](https://collection.willpinha.link)
 
 ## Why this collection?
 
@@ -28,7 +24,7 @@ I didn't find more complex usage examples for DaisyUI anywhere, so I decided to 
 
 ## Installation
 
-You don't need to install anything! Just copy/paste any UI component into your project
+You don't need to install anything! Just copy/paste any UI component from [the collection](https://collection.willpinha.link) into your project
 
 > [!IMPORTANT]
 > All eamples are made with DaisyUI and TailwindCSS, so make sure you have these dependencies in your 
@@ -47,6 +43,19 @@ This collection is made by the community and you can contribute!
 This collection exists thanks to all the people who contribute ❤️
 
 ![Contributors](https://contrib.rocks/image?repo=willpinha/daisy-collection)
+
+## Inspirations for this project
+
+The UI components in this collection can be inspired from various places, such as websites, images, the contributor's own creativity, or other
+component libraries
+
+Many UI components were inspired by other component libraries, which I list below:
+
+- [Meraki UI](https://merakiui.com/)
+- [Preline UI](https://preline.co/)
+- [Mamba UI](https://mambaui.com/)
+
+Thanks for the inspiration!
 
 ## License
 
