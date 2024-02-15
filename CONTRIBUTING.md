@@ -18,12 +18,12 @@ each file within these tags is a UI component
 
 A UI component is simply an HTML file containing DaisyUI, TailwindCSS and Font Awesome classes
 
-## Contributing
-
 ## Issues to contribute
 
 If you want to contribute to issues that are not assigned to anyone else, use
 [this issue filter](https://github.com/willpinha/daisy-collection/issues?q=is%3Aopen+is%3Aissue+label%3Ahelp-wanted) to select all issues with the `help-wanted` label
+
+## Contributing
 
 ### Add a new UI component
 
