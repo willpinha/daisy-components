@@ -5,7 +5,7 @@ type Collection = {
 };
 
 async function buildCollection(): Promise<Collection> {
-    const modules = import.meta.glob("../examples/**/*.html", { as: "raw" });
+    const modules = import.meta.glob("../collection/**/*.html", { as: "raw" });
 
     const collection: Collection = {};
 
