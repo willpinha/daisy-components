@@ -55,7 +55,7 @@ Many UI components were inspired by other component libraries, which I list belo
 - [Preline UI](https://preline.co/)
 - [Mamba UI](https://mambaui.com/)
 
-Thanks for the inspiration!
+Thanks for the inspiration! 🚀
 
 ## License
 
