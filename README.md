@@ -21,14 +21,14 @@ I didn't find more complex usage examples for DaisyUI anywhere, so I decided to 
 
 ## Features
 
-- 📱 Mobile responsive UI examples
+- 📱 Mobile responsive UI components
 - 🎨 Supports all 32 DaisyUI themes
 - 🏗️ Constantly growing collection
 - 📖 Free and open source, forever
 
 ## Installation
 
-You don't need to install anything! Just copy/paste any UI example into your project
+You don't need to install anything! Just copy/paste any UI component into your project
 
 > [!IMPORTANT]
 > All eamples are made with DaisyUI and TailwindCSS, so make sure you have these dependencies in your 
