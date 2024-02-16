@@ -23,7 +23,7 @@
 			</a>
 		</span>
 
-		<h1 class="text-4xl font-bold">
+		<h1 class="text-4xl font-bold text-center">
 			Click on a <span class="text-primary">#tag</span> to show
 			<i class="text-secondary">UI examples</i>
 		</h1>
