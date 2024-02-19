@@ -1,0 +1,82 @@
+<!-- Navbar -->
+<nav class="navbar justify-between bg-base-300">
+    <!-- Logo -->
+    <div class="flex gap-2 overflow-x-auto">
+        <a class="btn btn-ghost px-3">
+            <i class="fa-solid fa-arrow-left-long text-2xl"></i>
+        </a>
+
+        <div class="breadcrumbs text-sm">
+            <ul>
+                <li><a class="text-secondary">willpinha</a></li>
+                <li>daisy-collection</li>
+                <li>Relationships</li>
+                <li>Graph</li>
+            </ul>
+        </div>
+    </div>
+
+    <!-- Menu for mobile -->
+    <div class="dropdown dropdown-end lg:hidden">
+        <button class="btn btn-ghost">
+            <i class="fa-solid fa-bars text-lg"></i>
+        </button>
+
+        <ul tabindex="0" class="dropdown-content menu z-[1] bg-base-200 p-6 rounded-box shadow w-56 gap-2">
+            <li>
+                <a>
+                    <i class="fa-solid fa-table"></i>
+                    Tables
+                </a>
+            </li>
+            <li>
+                <a class="active">
+                    <i class="fa-solid fa-circle-nodes"></i>
+                    Relationships
+                </a>
+            </li>
+            <li>
+                <a>
+                    <i class="fa-solid fa-f"></i>
+                    Functions
+                </a>
+            </li>
+            <li>
+                <a>
+                    <i class="fa-solid fa-users"></i>
+                    Roles
+                </a>
+            </li>
+        </ul>
+    </div>
+
+    <!-- Menu for desktop -->
+    <div role="tablist" class="hidden lg:tabs tabs-boxed">
+        <a role="tab" class="tab gap-2">
+            <i class="fa-solid fa-table"></i>
+            Tables
+        </a>
+        <a role="tab" class="tab tab-active gap-2">
+            <i class="fa-solid fa-circle-nodes"></i>
+            Relationships
+        </a>
+        <a role="tab" class="tab gap-2">
+            <i class="fa-solid fa-f"></i>
+            Functions
+        </a>
+        <a role="tab" class="tab gap-2">
+            <i class="fa-solid fa-users"></i>
+            Roles
+        </a>
+    </div>
+</nav>
+
+<nav class="navbar justify-end bg-base-200">
+    <ul class="menu menu-horizontal justify-center flex-nowrap overflow-x-auto">
+        <li><a>Table</a></li>
+        <li><a class="active">Graph</a></li>
+        <li><a>Nodes</a></li>
+        <li><a>Links</a></li>
+        <li><a>List</a></li>
+    </ul>
+</nav>
