@@ -8,7 +8,7 @@
 
 </div>
 
-## 🌌 Why this collection?
+## 🌌 About Daisy Universe
 
 I used DaisyUI in some projects and the amount of functionality it offers without any JavaScript code is incredible, not to mention the different themes and
 colors available
