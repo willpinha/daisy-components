@@ -4,22 +4,18 @@
 
 # Daisy [Universe](https://daisyuniverse.com)
 
-*🌌 Amazing UI components and themes for DaisyUI*
+*🌌 Amazing UI components and themes for [DaisyUI](https://daisyui.com)*
 
 </div>
 
 ## 🌌 About
 
-I used DaisyUI in some projects and the amount of functionality it offers without any JavaScript code is incredible, not to mention the different themes and
-colors available
-
-I didn't find more complex usage examples for DaisyUI anywhere, so I decided to create this collection. I hope it inspires you in your projects!
+Daisy Universe is a project that aims to provide the community with custom UI components and color themes for DaisyUI
 
 ## 🌌 Features
 
 - Mobile-first UI components
-- Supports all 32 DaisyUI themes
-- Constantly growing collection
+- Beautiful DaisyUI custom themes
 - Free and open source, forever
 
 ## 🌌 Installation
