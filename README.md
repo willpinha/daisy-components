@@ -1,10 +1,10 @@
 <div align="center">
 
-<img alt="Daisy Collection" width="120" src="https://github.com/willpinha/daisy-collection/assets/86596621/ee38de70-3564-4c55-af1f-e5f0d7c9092e" />
+<img alt="Daisy Universe" width="200" src="https://raw.githubusercontent.com/willpinha/daisyuniverse/master/public/daisyuniverse.svg" />
 
-# Daisy [Collection](https://daisy.willpinha.dev)
+# Daisy [Universe](https://daisyuniverse.com)
 
-*🌸 A collection of UI components using [DaisyUI](https://github.com/saadeghi/daisyui)*
+*⚠️🛸 They are daisy hunters and they are coming after you...*
 
 </div>
 
