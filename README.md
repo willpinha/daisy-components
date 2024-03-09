@@ -19,8 +19,9 @@ not weeks!
 - Beautiful DaisyUI custom themes
 - Free and open source, forever
 
-## 🌌 Installation
+## 🌌 Installing
 
+Take a look at the [INSTALLING](INSTALLING.md) guide to get started using Daisy Universe
 
 ## 🌌 Contributing
 
