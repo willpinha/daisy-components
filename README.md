@@ -2,7 +2,7 @@
 
 <img alt="Daisy Collection" width="120" src="https://github.com/willpinha/daisy-collection/assets/86596621/ee38de70-3564-4c55-af1f-e5f0d7c9092e" />
 
-# [Daisy Collection](https://collection.willpinha.link)
+# Daisy [Collection](https://collection.willpinha.link)
 
 *🌸 A collection of UI components using [DaisyUI](https://github.com/saadeghi/daisyui)*
 
