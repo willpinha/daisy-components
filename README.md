@@ -17,10 +17,10 @@ I didn't find more complex usage examples for DaisyUI anywhere, so I decided to 
 
 ## 🌌 Features
 
-- 📱 Mobile responsive UI components
-- 🎨 Supports all 32 DaisyUI themes
-- 🏗️ Constantly growing collection
-- 📖 Free and open source, forever
+- Mobile-first UI components
+- Supports all 32 DaisyUI themes
+- Constantly growing collection
+- Free and open source, forever
 
 ## 🌌 Installation
 
