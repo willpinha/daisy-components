@@ -10,8 +10,8 @@
 
 ## 🌌 About
 
-Daisy Universe is a project that aims to provide the community with custom UI components and color themes for DaisyUI. Build your front end in hours,
-not weeks!
+[Daisy Universe](https://daisyuniverse.com) is a project that aims to provide the community with custom UI components and color themes for DaisyUI.
+Build your front end in hours, not weeks!
 
 ## 🌌 Features
 
