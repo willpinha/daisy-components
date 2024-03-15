@@ -22,7 +22,7 @@
 
 			<div class="flex font-bold text-lg">
 				Daisy
-				<span class="text-primary">Collection</span>
+				<span class="text-primary">Components</span>
 			</div>
 		</a>
 	{/if}
@@ -30,7 +30,7 @@
 	<!-- Right side -->
 	<div class="flex gap-0 sm:gap-2">
 		<!-- GitHub -->
-		<a title="GitHub" target="_blank" href="https://github.com/willpinha/daisy-collection" class="btn btn-ghost btn-circle btn-sm">
+		<a title="GitHub" target="_blank" href="https://github.com/willpinha/daisy-components" class="btn btn-ghost btn-circle btn-sm">
 			<i class="fa-brands fa-github text-lg"></i>
 		</a>
 

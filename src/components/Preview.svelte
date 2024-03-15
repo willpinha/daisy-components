@@ -44,7 +44,7 @@
 			{@html html}
 		</div>
 
-		<a target="_blank" href="https://github.com/willpinha/daisy-collection/blob/master/src/collection/{tag}/{example}.html" class="tab">
+		<a target="_blank" href="https://github.com/willpinha/daisy-components/blob/master/src/collection/{tag}/{example}.html" class="tab">
 			Code
 		</a>
 
