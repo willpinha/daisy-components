@@ -10,8 +10,10 @@
 
 ## 🌸 About
 
-[Daisy Components](https://components.willpinha.link) is a collection of DaisyUI components you can copy and paste into any project that uses
-TailwindCSS and DaisyUI. I hope this components help you build amazing user interfaces fast
+I used DaisyUI in some projects and the amount of functionality it offers without any JavaScript code is incredible, not to mention the different themes
+and colors available
+
+I didn't find more complex usage examples for DaisyUI anywhere, so I decided to create this repository. I hope it inspires you in your projects!
 
 ## 🌸 Features
 
@@ -33,7 +35,10 @@ You don't need to install anything! Just copy and paste any component into your 
 This project is made by the community and you can contribute!
 
 > [!TIP] 
-> If you want to contribute, take a look at the [CONTRIBUTING](CONTRIBUTING.md) guide
+> If you want to contribute, you can create an issue explaining your idea and make a pull request from that issue. This project is open to new ideas
+> and implementations. Thanks!
+
+
 
 ## 🌸 Contributors
 
@@ -52,7 +57,7 @@ Many UI components were inspired by other component libraries, which I list belo
 - [Preline UI](https://preline.co/)
 - [Mamba UI](https://mambaui.com/)
 
-Thanks for the inspiration! 🚀
+Thanks for the inspiration!
 
 ## 🌸 License
 
