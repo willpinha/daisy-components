@@ -1,44 +1,49 @@
 <div align="center">
 
-<img alt="Daisy Universe" width="200" src="https://raw.githubusercontent.com/willpinha/daisyuniverse/master/public/daisyuniverse.svg" />
+<img alt="Daisy Components" width="100" src="https://raw.githubusercontent.com/willpinha/daisyuniverse/master/public/logo.svg" />
 
-# Daisy [Universe](https://daisyuniverse.com)
+# Daisy [Components](https://components.willpinha.link)
 
-*🌌 Amazing UI components and themes for [DaisyUI](https://daisyui.com)*
+*🌸 Amazing [DaisyUI](https://daisyui.com) components you can copy and paste*
 
 </div>
 
-## 🌌 About
+## 🌸 About
 
-[Daisy Universe](https://daisyuniverse.com) is a project that aims to provide the community with custom UI components and color themes for DaisyUI.
-Build your front end in hours, not weeks!
+[Daisy Components](https://components.willpinha.link) is a collection of DaisyUI components you can copy and paste into any project that uses
+TailwindCSS and DaisyUI. I hope this components help you build amazing user interfaces fast
 
-## 🌌 Features
+## 🌸 Features
 
 - Mobile-first UI components
-- Beautiful DaisyUI custom themes
+- Supports all 32 DaisyUI themes
 - Free and open source, forever
 
-## 🌌 Installing
+## 🌸 Installing
 
-Take a look at the [INSTALLING](INSTALLING.md) guide to get started using Daisy Universe
+You don't need to install anything! Just copy and paste any component into your project
 
-## 🌌 Contributing
+> [!IMPORTANT]
+> All components are made with DaisyUI and TailwindCSS, so make sure you have these dependencies in your 
+> project. We also use [Font Awesome](https://fontawesome.com) for the icons, but you can replace it 
+> with any other icon library
+
+## 🌸 Contributing
 
 This project is made by the community and you can contribute!
 
 > [!TIP] 
 > If you want to contribute, take a look at the [CONTRIBUTING](CONTRIBUTING.md) guide
 
-## 🌌 Contributors
+## 🌸 Contributors
 
 This project exists thanks to all the people who contribute ❤️
 
-![Contributors](https://contrib.rocks/image?repo=willpinha/daisy-collection)
+![Contributors](https://contrib.rocks/image?repo=willpinha/daisy-components)
 
-## 🌌 Inspirations
+## 🌸 Inspirations
 
-The UI components in this project can be inspired from various places, such as websites, images, the contributor's own creativity, or other
+The components in this project can be inspired from various places, such as websites, images, the contributor's own creativity, or other
 component libraries
 
 Many UI components were inspired by other component libraries, which I list below:
@@ -49,6 +54,6 @@ Many UI components were inspired by other component libraries, which I list belo
 
 Thanks for the inspiration! 🚀
 
-## 🌌 License
+## 🌸 License
 
 This repository is under the [MIT license](LICENSE)
