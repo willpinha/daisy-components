@@ -1,0 +1,48 @@
+<!-- Card -->
+<div class="flex flex-col w-full max-w-xs rounded-lg shadow-md bg-base-300">
+    <!-- Top bar of the card -->
+    <div class="p-2 flex justify-end">
+
+        <!-- Favourite product button -->
+        <button class="btn btn-sm btn-square btn-ghost">
+            <i class="fa fa-heart text-xl" aria-hidden="true"></i>
+        </button>
+
+        <div class="divider divider-horizontal m-0"></div>
+
+        <!-- Options dropdown -->
+        <div class="dropdown dropdown-end">
+            <button class="btn btn-sm btn-square btn-ghost" tabindex="0" role="button">
+                <i class="fa fa-ellipsis-v text-xl" aria-hidden="true"></i>
+            </button>
+            <ul tabindex="0" class="dropdown-content z-[1] menu p-2 shadow bg-base-100 rounded-lg w-max">
+                <li><a>
+                    <i class="fa fa-plus text-xl" aria-hidden="true"></i>
+                    Add to list
+                </a></li>
+                <li><a>
+                    <i class="fa fa-compress text-xl" aria-hidden="true"></i>
+                    Compare
+                </a></li>
+            </ul>
+        </div>
+    </div>
+
+    <!-- Product image -->
+    <img src="/product.png" class="w-fit max-h-64 m-auto p-4" alt="iphone">
+
+    <!-- Product info -->
+    <div class="p-4 flex flex-col gap-4">
+        <div>
+            <a class="text-gray-600 text-sm">Mobile phones</a>
+            <p>IPhone 15 XR PRO MAX (256GB, 8GB RAM) Titanium gray</p>
+        </div>
+        <p>
+            <span class="text-gray-600 text-sm">from:</span>
+            <span class="font-semibold text-xl">1500 $</span>
+        </p>
+        <button class="btn btn-block btn-primary">
+            ADD TO CART
+        </button>
+    </div>
+</div>
