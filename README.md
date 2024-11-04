@@ -1,3 +1,6 @@
+> [!WARNING]
+> This project will be archived while we wait for version 5 of daisyUI. Stay tuned!
+
 <div align="center">
 
 <img alt="Daisy Components" width="100" src="https://raw.githubusercontent.com/willpinha/daisyuniverse/master/public/logo.svg" />
