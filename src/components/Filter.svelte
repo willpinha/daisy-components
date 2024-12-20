@@ -18,7 +18,7 @@
 				willpinha
 			</a>
 			and
-			<a href="https://github.com/willpinha/daisy-components/graphs/contributors" class="link link-accent link-hover">
+			<a href="https://github.com/willpinha//graphs/contributors" class="link link-accent link-hover">
 				contributors
 			</a>
 		</span>
@@ -47,7 +47,7 @@
 	<div class="flex flex-wrap justify-center gap-2">
 		{#each tags as tag}
 			<a
-				href="/{tag}"
+				href="{tag}"
 				class="btn btn-sm btn-outline btn-primary"
 				class:btn-disabled={!isMatch(tag, filter)}
 			>

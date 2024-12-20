@@ -8,7 +8,7 @@
 	<!-- Left side -->
 	{#if tag}
 		<div class="flex gap-2">
-			<a href="/daisy-components" class="btn btn-ghost px-3">
+			<a href="" class="btn btn-ghost px-3">
 				<i class="fa-solid fa-arrow-left-long text-2xl"></i>
 			</a>
 
@@ -17,7 +17,7 @@
 			</span>
 		</div>
 	{:else}
-		<a href="/daisy-components" class="btn btn-ghost flex gap-2">
+		<a href="" class="btn btn-ghost flex gap-2">
 			<img src="/logo.svg" class="w-4" alt="Daisy Catalog" />
 
 			<div class="flex font-bold text-lg">
@@ -30,7 +30,7 @@
 	<!-- Right side -->
 	<div class="flex gap-0 sm:gap-2">
 		<!-- GitHub -->
-		<a title="GitHub" target="_blank" href="https://github.com/willpinha/daisy-components" class="btn btn-ghost btn-circle btn-sm">
+		<a title="GitHub" target="_blank" href="https://github.com/willpinha/" class="btn btn-ghost btn-circle btn-sm">
 			<i class="fa-brands fa-github text-lg"></i>
 		</a>
 

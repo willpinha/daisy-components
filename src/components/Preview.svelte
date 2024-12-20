@@ -44,10 +44,10 @@
 			{@html html}
 		</div>
 
-		<a target="_blank" href="https://github.com/willpinha/daisy-components/blob/master/src/collection/{tag}/{example}.html" class="tab">
+		<a target="_blank" href="https://github.com/willpinha//blob/master/src/collection/{tag}/{example}.html" class="tab">
 			Code
 		</a>
 
-		<a target="_blank" href="/playground/{tag}/{example}" class="tab">Playground</a>
+		<a target="_blank" href="playground/{tag}/{example}" class="tab">Playground</a>
 	</div>
 </div>
