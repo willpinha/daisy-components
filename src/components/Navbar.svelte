@@ -18,7 +18,7 @@
 		</div>
 	{:else}
 		<a href="" class="btn btn-ghost flex gap-2">
-			<img src="/logo.svg" class="w-4" alt="Daisy Catalog" />
+			<img src="logo.svg" class="w-4" alt="Daisy Catalog" />
 
 			<div class="flex font-bold text-lg">
 				Daisy
