@@ -5,7 +5,7 @@
 
 <img alt="Daisy Components" width="100" src="https://raw.githubusercontent.com/willpinha/daisyuniverse/master/public/logo.svg" />
 
-# Daisy [Components](https://components.willpinha.link)
+# Daisy [Components](https://daisy-components.pinha.link)
 
 *🌸 Amazing [DaisyUI](https://daisyui.com) components you can copy and paste*
 
