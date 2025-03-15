@@ -41,7 +41,7 @@
 
 		<i class="absolute pl-5 fa-solid fa-filter text-primary"></i>
 
-		<input id="filter" placeholder="Filter tags..." class="input input-bordered pl-12" bind:value={filter} />
+		<input id="filter" placeholder="Filter tags..." class="input pl-12" bind:value={filter} />
 	</label>
 
 	<div class="flex flex-wrap justify-center gap-2">

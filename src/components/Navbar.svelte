@@ -12,7 +12,7 @@
 	<!-- Left side -->
 	{#if tag}
 		<div class="flex gap-2">
-			<a href="/" class="btn btn-ghost px-3">
+			<a href="/" class="btn btn-soft px-3">
 				<i class="fa-solid fa-arrow-left-long text-2xl"></i>
 			</a>
 
@@ -21,7 +21,7 @@
 			</span>
 		</div>
 	{:else}
-		<a href="/" class="btn btn-ghost flex gap-2">
+		<a href="/" class="btn btn-soft flex gap-2">
 			<img src="/logo.svg" class="w-4" alt="Daisy Catalog" />
 
 			<div class="flex font-bold text-lg">
@@ -34,13 +34,13 @@
 	<!-- Right side -->
 	<div class="flex gap-0 sm:gap-2">
 		<!-- GitHub -->
-		<a title="GitHub" target="_blank" href="https://github.com/willpinha/daisy-components" class="btn btn-ghost btn-circle btn-sm">
+		<a title="GitHub" target="_blank" href="https://github.com/willpinha/daisy-components" class="btn btn-soft btn-circle btn-sm">
 			<i class="fa-brands fa-github text-lg"></i>
 		</a>
 
 		<!-- Themes -->
 		<div class="dropdown dropdown-bottom dropdown-end">
-			<div title="Themes" role="button" tabindex="0" class="btn btn-ghost btn-sm">
+			<div title="Themes" role="button" tabindex="0" class="btn btn-soft btn-sm">
 				<i class="fa-solid fa-palette"></i>
 
 				<i class="fa-solid fa-angle-down"></i>

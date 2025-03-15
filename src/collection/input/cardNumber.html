@@ -1,11 +1,16 @@
 <label for="card" class="form-control w-full max-w-xs">
-    <div class="label">
-        <span class="label-text">Card number</span>
-    </div>
+  <div class="label">
+    <span class="label-text">Card number</span>
+  </div>
 
-    <div class="inline-flex relative items-center">
-        <i class="absolute pl-5 fa-solid fa-credit-card text-primary"></i>
+  <div class="inline-flex relative items-center">
+    <i class="absolute pl-5 fa-solid fa-credit-card text-primary"></i>
 
-        <input id="filter" placeholder="5555555555554444" class="input input-bordered w-full pl-12" bind:value={filter} />
-    </div>
+    <input
+      id="filter"
+      placeholder="5555555555554444"
+      class="input w-full pl-12"
+      bind:value="{filter}"
+    />
+  </div>
 </label>
