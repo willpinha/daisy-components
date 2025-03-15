@@ -35,13 +35,10 @@
 		<span class="badge badge-accent badge-outline badge-sm">{tags.length}</span> tags!
 	</div>
 
-	<label for="filter" class="flex relative items-center">
-        <!-- Without it, Astro says it is an accessibility issue -->
-        <span class="hidden">Filter</span>
+	<label class="input">
+		<i class="fa-solid fa-filter text-primary"></i>
 
-		<i class="absolute pl-5 fa-solid fa-filter text-primary"></i>
-
-		<input id="filter" placeholder="Filter tags..." class="input pl-12" bind:value={filter} />
+		<input id="filter" placeholder="Filter tags..." bind:value={filter} />
 	</label>
 
 	<div class="flex flex-wrap justify-center gap-2">
