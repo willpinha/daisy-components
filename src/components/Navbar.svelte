@@ -8,10 +8,10 @@
 	let { tag = undefined }: Props = $props();
 </script>
 
-<nav class="navbar bg-base-300 justify-between">
+<nav class="navbar bg-base-200 justify-between">
 	<!-- Left side -->
 	{#if tag}
-		<div class="flex gap-2">
+		<div class="flex items-center gap-2">
 			<a href="/" class="btn btn-soft px-3">
 				<i class="fa-solid fa-arrow-left-long text-2xl"></i>
 			</a>
