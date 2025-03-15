@@ -1,57 +1,59 @@
 <!-- Navbar -->
 <nav class="navbar bg-base-300">
-    <!-- Menu for mobile -->
-    <div class="w-full flex justify-between md:hidden">
-        <!-- Logo -->
-        <a class="btn btn-ghost text-lg">
-            <img alt="Logo" src="/logo.svg" class="w-4" />
-            Game Name
+  <!-- Menu for mobile -->
+  <div class="w-full flex justify-between md:hidden">
+    <!-- Logo -->
+    <a class="btn btn-soft text-lg">
+      <img alt="Logo" src="/logo.svg" class="w-4" />
+      Game Name
+    </a>
+
+    <div class="dropdown dropdown-end">
+      <button class="btn btn-soft">
+        <i class="fa-solid fa-bars text-lg"></i>
+      </button>
+
+      <ul
+        tabindex="0"
+        class="dropdown-content menu z-[1] bg-base-200 p-6 rounded-box shadow w-56 gap-2"
+      >
+        <li><a>About</a></li>
+        <li><a>Teams</a></li>
+        <li><a>News</a></li>
+        <li><a>Community</a></li>
+        <a class="btn btn-primary btn-sm">
+          <i class="fa-brands fa-space-awesome"></i>
+          Access
         </a>
-
-        <div class="dropdown dropdown-end">
-            <button class="btn btn-ghost">
-                <i class="fa-solid fa-bars text-lg"></i>
-            </button>
-
-            <ul tabindex="0" class="dropdown-content menu z-[1] bg-base-200 p-6 rounded-box shadow w-56 gap-2">
-                <li><a>About</a></li>
-                <li><a>Teams</a></li>
-                <li><a>News</a></li>
-                <li><a>Community</a></li>
-                <a class="btn btn-primary btn-sm">
-                    <i class="fa-brands fa-space-awesome"></i>
-                    Access
-                </a>
-            </ul>
-        </div>
+      </ul>
     </div>
+  </div>
 
-    <!-- Menu for desktop -->
-    <div class="w-full hidden md:grid grid-cols-5 gap-2">
-        <!-- Left menu -->
-        <ul class="col-span-2 menu md:menu-horizontal justify-end hidden">
-            <li><a>About</a></li>
-            <li><a>Team</a></li>
-            <li><a>News</a></li>
-        </ul>
+  <!-- Menu for desktop -->
+  <div class="w-full hidden md:grid grid-cols-5 gap-2">
+    <!-- Left menu -->
+    <ul class="col-span-2 menu md:menu-horizontal justify-end hidden">
+      <li><a>About</a></li>
+      <li><a>Team</a></li>
+      <li><a>News</a></li>
+    </ul>
 
-        <!-- Centered logo -->
-        <div class="flex justify-center">
-            <a class="btn btn-ghost text-lg">
-                <img alt="Logo" src="/logo.svg" class="w-4" />
-                Game Name
-            </a>
-        </div>
-        <!-- Logo -->
-        
-
-        <!-- Right menu -->
-        <ul class="col-span-2 menu md:menu-horizontal justify-start gap-4 hidden">
-            <li><a>Community</a></li>
-            <a class="btn btn-primary btn-sm">
-                <i class="fa-brands fa-space-awesome"></i>
-                Access
-            </a>
-        </ul>
+    <!-- Centered logo -->
+    <div class="flex justify-center">
+      <a class="btn btn-soft text-lg">
+        <img alt="Logo" src="/logo.svg" class="w-4" />
+        Game Name
+      </a>
     </div>
+    <!-- Logo -->
+
+    <!-- Right menu -->
+    <ul class="col-span-2 menu md:menu-horizontal justify-start gap-4 hidden">
+      <li><a>Community</a></li>
+      <a class="btn btn-primary btn-sm">
+        <i class="fa-brands fa-space-awesome"></i>
+        Access
+      </a>
+    </ul>
+  </div>
 </nav>

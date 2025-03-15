@@ -1,68 +1,71 @@
 <!-- Navbar -->
 <nav class="navbar justify-between bg-base-300">
-    <!-- Logo -->
-    <a class="btn btn-ghost text-lg">
-        <img alt="Logo" src="/logo.svg" class="w-4" />
-        Company 
+  <!-- Logo -->
+  <a class="btn btn-soft text-lg">
+    <img alt="Logo" src="/logo.svg" class="w-4" />
+    Company
+  </a>
+
+  <!-- Menu for mobile -->
+  <div class="dropdown dropdown-end sm:hidden">
+    <button class="btn btn-soft">
+      <i class="fa-solid fa-bars text-lg"></i>
+    </button>
+
+    <ul
+      tabindex="0"
+      class="dropdown-content menu z-[1] bg-base-200 p-6 rounded-box shadow w-56 gap-2"
+    >
+      <div class="flex justify-center gap-2">
+        <a class="btn btn-circle btn-soft btn-sm text-xl">
+          <i class="fa-brands fa-fw fa-github"></i>
+        </a>
+
+        <a class="btn btn-circle btn-soft btn-sm text-xl">
+          <i class="fa-brands fa-fw fa-facebook"></i>
+        </a>
+
+        <a class="btn btn-circle btn-soft btn-sm text-xl">
+          <i class="fa-brands fa-fw fa-twitter"></i>
+        </a>
+
+        <a class="btn btn-circle btn-soft btn-sm text-xl">
+          <i class="fa-brands fa-fw fa-instagram"></i>
+        </a>
+      </div>
+
+      <li><a>About</a></li>
+      <li><a>Pricing</a></li>
+      <li><a>Blog</a></li>
+      <li><a>Contact</a></li>
+      <a class="btn btn-sm btn-primary">Log in</a>
+    </ul>
+  </div>
+
+  <!-- Menu for desktop -->
+  <ul class="hidden menu sm:menu-horizontal gap-2">
+    <li><a>About</a></li>
+    <li><a>Pricing</a></li>
+    <li><a>Blog</a></li>
+    <li><a>Contact</a></li>
+    <a class="btn btn-sm btn-primary">Log in</a>
+  </ul>
+
+  <div class="hidden sm:flex gap-2">
+    <a class="btn btn-circle btn-soft btn-sm text-xl">
+      <i class="fa-brands fa-fw fa-github"></i>
     </a>
 
-    <!-- Menu for mobile -->
-    <div class="dropdown dropdown-end sm:hidden">
-        <button class="btn btn-ghost">
-            <i class="fa-solid fa-bars text-lg"></i>
-        </button>
+    <a class="btn btn-circle btn-soft btn-sm text-xl">
+      <i class="fa-brands fa-fw fa-facebook"></i>
+    </a>
 
-        <ul tabindex="0" class="dropdown-content menu z-[1] bg-base-200 p-6 rounded-box shadow w-56 gap-2">
-            <div class="flex justify-center gap-2">
-                <a class="btn btn-circle btn-ghost btn-sm text-xl">
-                    <i class="fa-brands fa-fw fa-github"></i>
-                </a>
+    <a class="btn btn-circle btn-soft btn-sm text-xl">
+      <i class="fa-brands fa-fw fa-twitter"></i>
+    </a>
 
-                <a class="btn btn-circle btn-ghost btn-sm text-xl">
-                    <i class="fa-brands fa-fw fa-facebook"></i>
-                </a>
-
-                <a class="btn btn-circle btn-ghost btn-sm text-xl">
-                    <i class="fa-brands fa-fw fa-twitter"></i>
-                </a>
-
-                <a class="btn btn-circle btn-ghost btn-sm text-xl">
-                    <i class="fa-brands fa-fw fa-instagram"></i>
-                </a>
-            </div>
-
-            <li><a>About</a></li>
-            <li><a>Pricing</a></li>
-            <li><a>Blog</a></li>
-            <li><a>Contact</a></li>
-            <a class="btn btn-sm btn-primary">Log in</a>
-        </ul>
-    </div>
-
-    <!-- Menu for desktop -->
-    <ul class="hidden menu sm:menu-horizontal gap-2">
-        <li><a>About</a></li>
-        <li><a>Pricing</a></li>
-        <li><a>Blog</a></li>
-        <li><a>Contact</a></li>
-        <a class="btn btn-sm btn-primary">Log in</a>
-    </ul>
-
-    <div class="hidden sm:flex gap-2">
-        <a class="btn btn-circle btn-ghost btn-sm text-xl">
-            <i class="fa-brands fa-fw fa-github"></i>
-        </a>
-
-        <a class="btn btn-circle btn-ghost btn-sm text-xl">
-            <i class="fa-brands fa-fw fa-facebook"></i>
-        </a>
-
-        <a class="btn btn-circle btn-ghost btn-sm text-xl">
-            <i class="fa-brands fa-fw fa-twitter"></i>
-        </a>
-
-        <a class="btn btn-circle btn-ghost btn-sm text-xl">
-            <i class="fa-brands fa-fw fa-instagram"></i>
-        </a>
-    </div>
+    <a class="btn btn-circle btn-soft btn-sm text-xl">
+      <i class="fa-brands fa-fw fa-instagram"></i>
+    </a>
+  </div>
 </nav>

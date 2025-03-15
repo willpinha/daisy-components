@@ -1,25 +1,16 @@
 <script lang="ts">
-    import { onMount } from "svelte";
+	interface Props {
+		tag: string;
+		example: string;
+		html: string;
+	}
 
-	export let tag: string;
-	export let example: string;
-    export let html: string;
-
-	let preview: HTMLElement;
+	let { tag, example, html }: Props = $props();
 
 	// Lower camel case to lower case with spaces
 	function convertExampleName(name: string): string {
 		return name.replace(/([a-z])([A-Z])/g, '$1 $2').toLowerCase();
 	}
-
-	onMount(() => {
-		const hasScrolling = preview.scrollHeight > preview.clientHeight;
-
-		if (hasScrolling) {
-			// Prevents vertical scrolling
-			preview.style.height = 40 + preview.scrollHeight + "px";
-		}
-	});
 </script>
 
 <div class="flex flex-col gap-2">
@@ -31,7 +22,7 @@
 		</span>
 	</div>
 
-	<div role="tablist" class="tabs tabs-lifted pb-4">
+	<div role="tablist" class="tabs tabs-lift pb-4">
 		<input
 			type="radio"
 			name="{example}"
@@ -40,7 +31,7 @@
 			aria-label="Preview"
 			checked
 		/>
-		<div bind:this={preview} role="tabpanel" class="flex tab-content border-base-300 rounded-box p-3 overflow-x-auto">
+		<div role="tabpanel" class="resize-y tab-content border-base-300 rounded-box p-3 overflow-x-auto">
 			{@html html}
 		</div>
 
