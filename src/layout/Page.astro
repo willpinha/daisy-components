@@ -1,8 +1,6 @@
 ---
 	import "../styles/global.css";
 	
-	import "@fortawesome/fontawesome-free/css/all.min.css";
-	
 	const { title } = Astro.props;
 ---
 <!DOCTYPE html>
@@ -12,6 +10,7 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<title>Components | {title}</title>
 	<link rel="icon" type="image/x-icon" href="/logo.svg">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 	<script is:inline>
 		/**
 		 * Prevents the FART problem (https://css-tricks.com/flash-of-inaccurate-color-theme-fart/)
@@ -38,6 +37,6 @@
 	</script>
 </head>
 <body>
-	<slot />	
+	<slot />
 </body>
 </html>
