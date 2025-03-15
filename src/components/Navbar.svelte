@@ -1,7 +1,11 @@
 <script lang="ts">
 	import themes from "../utils/themes";
 
-	export let tag: string | undefined = undefined;
+	interface Props {
+		tag?: string | undefined;
+	}
+
+	let { tag = undefined }: Props = $props();
 </script>
 
 <nav class="navbar bg-base-300 justify-between">

@@ -1,11 +1,15 @@
 <script lang="ts">
     import { onMount } from "svelte";
 
-	export let tag: string;
-	export let example: string;
-    export let html: string;
+	interface Props {
+		tag: string;
+		example: string;
+		html: string;
+	}
 
-	let preview: HTMLElement;
+	let { tag, example, html }: Props = $props();
+
+	let preview: HTMLElement = $state();
 
 	// Lower camel case to lower case with spaces
 	function convertExampleName(name: string): string {

@@ -3,7 +3,11 @@
 
     import Preview from "../components/Preview.svelte";
 
-    export let tag: string;
+    interface Props {
+        tag: string;
+    }
+
+    let { tag }: Props = $props();
 
     const examples = collection[tag];
 </script>

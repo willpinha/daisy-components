@@ -2,7 +2,7 @@
     import { isMatch } from "../utils/filter";
     import { getTags, getNumberOfExamples } from "../utils/collection";
 
-    let filter = "";
+    let filter = $state("");
 
     const tags = getTags();
     const numExamples = getNumberOfExamples();
