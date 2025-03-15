@@ -9,6 +9,21 @@
 </script>
 
 <div class="flex flex-col items-center gap-8 px-4 py-8">
+	<div role="alert" class="alert alert-warning alert-soft w-full max-w-xl">
+		<i class="fa-solid fa-triangle-exclamation"></i>
+		<div class="flex flex-col gap-2">
+			<h3 class="font-bold">Attention please!</h3>
+			<span class="text-sm">
+				This project was initially built with Svelte 4, Tailwind 3, and daisyUI 4. We've updated the dependencies to the
+				latest versions, but some components may be out of place
+			</span>
+			<span class="text-sm">
+				Please see the <a class="link" href="https://github.com/willpinha/daisy-components?tab=readme-ov-file#-contributing">contributing guide</a>
+				if you notice anything unusual and want to contribute. Thanks!
+			</span>
+		</div>
+	</div>
+
 	<div class="flex flex-col items-center gap-2">
 		<span class="text-sm">
 			Made with
