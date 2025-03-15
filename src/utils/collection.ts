@@ -1,52 +1,55 @@
 type Collection = {
-    [tag: string]: {
-        [example: string]: string
-    }
+  [tag: string]: {
+    [example: string]: string;
+  };
 };
 
 async function buildCollection(): Promise<Collection> {
-    const modules = import.meta.glob("../collection/**/*.html", { as: "raw" });
+  const modules = import.meta.glob("../collection/**/*.html", {
+    query: "?raw",
+    import: "default",
+  });
 
-    const collection: Collection = {};
+  const collection: Collection = {};
 
-    for (const path in modules) {
-        const regex = /\/([^/]+)\/([^/]+)\.html$/;
-        const match = path.match(regex);
+  for (const path in modules) {
+    const regex = /\/([^/]+)\/([^/]+)\.html$/;
+    const match = path.match(regex);
 
-        let tagName: string;
-        let exampleName: string;
+    let tagName: string;
+    let exampleName: string;
 
-        if (match) {
-            tagName = match[1];
-            exampleName = match[2];
-        } else {
-            tagName = "";
-            exampleName = "";
-        }
-
-        const html = await modules[path]();
-
-        collection[tagName] = collection[tagName] ?? {};
-        collection[tagName][exampleName] = html;
+    if (match) {
+      tagName = match[1];
+      exampleName = match[2];
+    } else {
+      tagName = "";
+      exampleName = "";
     }
 
-    return collection;
+    const html = (await modules[path]()) as string;
+
+    collection[tagName] = collection[tagName] ?? {};
+    collection[tagName][exampleName] = html;
+  }
+
+  return collection;
 }
 
 export function getNumberOfExamples(): number {
-    let numExamples = 0;
+  let numExamples = 0;
 
-    for (const tag in collection) {
-        const examples = Object.keys(collection[tag]);
+  for (const tag in collection) {
+    const examples = Object.keys(collection[tag]);
 
-        numExamples += examples.length;
-    }
+    numExamples += examples.length;
+  }
 
-    return numExamples; 
+  return numExamples;
 }
 
 export function getTags(): string[] {
-    return Object.keys(collection);
+  return Object.keys(collection);
 }
 
 export const collection = await buildCollection();
