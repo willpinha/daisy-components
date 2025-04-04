@@ -1,3 +1,12 @@
+> [!WARNING]
+> This project is no longer being developed for two reasons:
+> 1. Front-end libraries and frameworks are constantly introducing breaking changes
+> 2. I'm no longer developing front-end
+>
+> The project's daisyUI version is 4.5. You are welcome to fork Daisy Components and continue the project
+>
+> Many thanks to everyone who participated in this experience! See you in open source projects ❤️
+
 <div align="center">
 
 <img alt="Daisy Components" width="100" src="https://raw.githubusercontent.com/willpinha/daisyuniverse/master/public/logo.svg" />
