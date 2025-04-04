@@ -47,7 +47,7 @@
 	<div class="flex flex-wrap justify-center gap-2">
 		{#each tags as tag}
 			<a
-				href="/{tag}"
+				href="/daisy-components/{tag}"
 				class="btn btn-sm btn-outline btn-primary"
 				class:btn-disabled={!isMatch(tag, filter)}
 			>

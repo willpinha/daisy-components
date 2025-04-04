@@ -48,6 +48,6 @@
 			Code
 		</a>
 
-		<a target="_blank" href="/playground/{tag}/{example}" class="tab">Playground</a>
+		<a target="_blank" href="/daisy-components/playground/{tag}/{example}" class="tab">Playground</a>
 	</div>
 </div>

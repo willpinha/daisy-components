@@ -8,7 +8,7 @@
 	<!-- Left side -->
 	{#if tag}
 		<div class="flex gap-2">
-			<a href="/" class="btn btn-ghost px-3">
+			<a href="/daisy-components/" class="btn btn-ghost px-3">
 				<i class="fa-solid fa-arrow-left-long text-2xl"></i>
 			</a>
 
@@ -17,8 +17,8 @@
 			</span>
 		</div>
 	{:else}
-		<a href="/" class="btn btn-ghost flex gap-2">
-			<img src="/logo.svg" class="w-4" alt="Daisy Catalog" />
+		<a href="/daisy-components/" class="btn btn-ghost flex gap-2">
+			<img src="/daisy-components/logo.svg" class="w-4" alt="Daisy Catalog" />
 
 			<div class="flex font-bold text-lg">
 				Daisy
