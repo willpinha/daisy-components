@@ -5,6 +5,6 @@ import svelte from "@astrojs/svelte";
 
 // https://astro.build/config
 export default defineConfig({
-  site: "https://daisy-components.pinha.link",
+  site: "https://willpinha.github.io/daisy-components",
   integrations: [tailwind(), svelte()]
 });
