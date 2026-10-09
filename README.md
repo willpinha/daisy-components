@@ -1,7 +1,5 @@
 > [!WARNING]
-> This project is no longer being developed for two reasons:
-> 1. Front-end libraries and frameworks are constantly introducing breaking changes
-> 2. I'm no longer developing front-end
+> This project is no longer being developed
 >
 > The project's daisyUI version is 4.5. You are welcome to fork Daisy Components and continue the project
 >
